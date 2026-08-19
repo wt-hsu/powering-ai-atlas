@@ -1,0 +1,31 @@
+# --- Secrets and local environment (NEVER commit) ---
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# --- Node / frontend ---
+node_modules/
+dist/
+.vite/
+*.log
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+
+# --- Personal / non-public working files ---
+# Career and application material must never enter the public repo.
+private/
+scratch/
+*_PRIVATE.md
