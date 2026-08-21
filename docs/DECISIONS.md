@@ -171,3 +171,40 @@ snapshots makes age a documented property rather than a failure, and matches how
 research datasets are normally cited.
 
 **Status.** Adopted.
+
+---
+
+## D-012 — 2026-08-19 — No bond-pricing fields in v0.1
+
+**Decision.** `deal_structures.csv` records amounts, terms, stakes, and credit
+support, but not pricing terms (coupon, spread, rating). Revisit for v0.3.
+
+**Reasoning.** Pricing details for 144A private placements come almost entirely
+from tier-C financial press, since there is no public prospectus. v0.1's central
+question is *who bears which risk*, which the existing fields answer; *what the
+risk pays* is a return question and belongs with the v0.3 bankability layer,
+by which point the sourcing standard for pricing data can be decided properly.
+Adding weakly-sourced numeric fields now would dilute the dataset's evidence
+standard for marginal analytical value.
+
+**Status.** Adopted.
+
+---
+
+## D-013 — 2026-08-19 — Two-step source verification workflow
+
+**Decision.** Every fact enters the dataset through a two-step workflow:
+the implementer drafts candidate facts from search and cross-referencing, marked
+unverified; the owner opens the primary source, checks the exact wording, and
+confirms before the record is committed with an `accessed_date`. A cited URL must
+have been successfully opened by a human before it enters `sources.csv`.
+
+**Reasoning.** Two triggers. First, a dead link and a satirical post surfaced in
+the same research pass that produced genuine sources — automated collection
+cannot be trusted to separate them. Second, the implementation environment has
+restricted network egress and cannot open most primary sources directly, while
+the project brief (§15) already assigns source reading to the owner. The
+workflow turns both constraints into the intended quality gate: no fact is
+published that the owner has not personally traced to its source.
+
+**Status.** Adopted.

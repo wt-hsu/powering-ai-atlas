@@ -22,3 +22,11 @@ Read before making changes:
 
 Update `docs/DATA_DICTIONARY.md`, bump the schema version, record the reasoning in
 `docs/DECISIONS.md`, and update the validator and its tests in the same change.
+
+## Source verification (D-013)
+
+- A URL enters `sources.csv` only after a human has opened it and confirmed the
+  cited fact's exact wording. Search-result snippets are leads, not evidence.
+- Facts drafted from search are marked unverified until owner sign-off.
+- Watch for satire, advocacy, and promotional content wearing the format of
+  analysis; tier classification is about the publisher's role, not the prose style.
