@@ -30,3 +30,15 @@ Update `docs/DATA_DICTIONARY.md`, bump the schema version, record the reasoning 
 - Facts drafted from search are marked unverified until owner sign-off.
 - Watch for satire, advocacy, and promotional content wearing the format of
   analysis; tier classification is about the publisher's role, not the prose style.
+
+## Publication boundary (D-016)
+
+- All decision and process records are written in English, in the project's
+  voice, and committed as they happen.
+- Personal context — motivations, self-development plans, notes tied to specific
+  organizations or roles — never enters version control. It lives in `private/`
+  (gitignored) with master copies kept off-repository.
+- Pre-commit test for every sentence: does it serve the product's users, or only
+  the owner? Owner-only content is not committed.
+- The Phase 5 audit squashes private-phase git history to a clean baseline
+  before the visibility flip.

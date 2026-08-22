@@ -123,7 +123,6 @@ Primary:
 
 Secondary:
 
-- MBA admissions readers and recruiters evaluating the owner's work;
 - students learning the AI infrastructure value chain;
 - open-source contributors proposing corrections.
 
@@ -937,7 +936,7 @@ The repository must remain private until every blocking item is satisfied.
 - ability to explain one ambiguous capacity case and one risk-allocation case;
 - ability to answer who owns, pays, supplies power, guarantees, and bears residual risk for selected projects.
 
-### 14.3 Career and public-impact metrics
+### 14.3 Public-impact metrics
 
 - 5 targeted expert reviews or conversations;
 - at least 1 substantive correction, contribution, citation, or reuse signal;
@@ -959,7 +958,7 @@ The owner is responsible for:
 - reading and understanding the sources behind published records;
 - making final judgment on ambiguous terminology or commercial meaning;
 - reviewing public UI language and LinkedIn communications;
-- being able to explain methodology and insights in interviews.
+- being able to explain the methodology and its insights publicly, without notes.
 
 ### The implementer
 

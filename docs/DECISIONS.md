@@ -132,17 +132,20 @@ its own schema.
 
 ---
 
-## D-009 — 2026-08-19 — Career and admissions material stays out of the public repo
+## D-009 — 2026-08-19 — Personal material stays out of the repository
 
-**Decision.** Sections 2.2 and 2.3 of the original brief (career purpose, MBA and
-public-brand purpose) must be removed from `PROJECT_BRIEF.md` before the
-repository is made public. They are retained in a gitignored private file.
+**Decision.** The founding brief contained sections written for the owner's
+private planning rather than for the project's users. Those sections are
+maintained in a gitignored private location and are excluded from
+`PROJECT_BRIEF.md`. The public repository carries only material that serves the
+product, its methodology, or its users.
 
-**Reasoning.** "I built this to support an MBA application" reframes the work from
-independent research into a portfolio exercise, which weakens how a domain reader
-receives it. The research rationale stands on its own.
+**Reasoning.** A research dataset is received on the strength of its method and
+evidence. Mixing personal planning context into public project documents adds
+nothing for users and distracts from the work itself. The research rationale
+stands on its own.
 
-**Status.** Adopted. Blocking item for the Phase 5 pre-publication audit.
+**Status.** Adopted. Enforced at the Phase 5 pre-publication audit; extended by D-016.
 
 ---
 
@@ -258,5 +261,45 @@ project is cheap (minutes) while reconstructing it later is expensive. Keeping
 notes in a separate file preserves the dataset's fact-only discipline (§4.6:
 no model-generated or inferred content inside the data) while still capturing
 the analytical layer that makes the dataset useful.
+
+**Status.** Adopted.
+
+---
+
+## D-016 — 2026-08-22 — Publication boundary policy
+
+**Decision.** Two content classes, with a bright line between them:
+
+**Public (in the repository, in English).** Everything about how the product is
+built and why: scope and positioning decisions, schema design and its tradeoffs,
+research methodology, validation rules, competitive analysis, dead ends and
+corrections, per-day build log. Written in the voice of the project — what the
+product needs and what its users need — and committed as it happens, so the
+decision record is contemporaneous rather than reconstructed.
+
+**Private (never committed).** The owner's personal context and planning:
+motivations, self-development goals, and any notes tied to specific
+organizations or roles. These live outside version control in the gitignored
+`private/` directory, with master copies kept off-repository entirely, since
+working containers are ephemeral.
+
+Two enforcement mechanisms:
+
+1. Every commit is checked against this boundary before it is made — the test
+   is "does this sentence serve the product's users, or only the owner?"
+   Sentences serving only the owner do not get committed.
+2. Because early commits in the private phase necessarily contain traces of
+   managing this boundary (including this decision's own history), the Phase 5
+   audit will squash the git history to a clean baseline immediately before the
+   repository is made public. The full decision record in `docs/` is preserved;
+   only the commit-by-commit private-phase history is collapsed. This is
+   recorded now so the squash is a planned step, not an afterthought.
+
+**Reasoning.** The repository will become public. A public repository is read
+two ways at once: as a product by its users, and as a record of how its author
+works. Both readings are best served by the same thing — a complete, honest,
+contemporaneous engineering record — and neither is served by personal planning
+context. Defining the boundary once, in writing, replaces case-by-case judgment
+under deadline pressure with a rule that can be checked mechanically.
 
 **Status.** Adopted.

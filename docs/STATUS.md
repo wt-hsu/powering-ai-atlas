@@ -34,7 +34,7 @@
 - Schema 0.2.0: six source tables, six defects in the original spec fixed
   (D-005 through D-008)
 - Scope reduced to 10 projects with a documented floor (D-003)
-- Public brief separated from private career material (D-009)
+- Public brief separated from private working material (D-009)
 - CSV headers written for all six source tables
 
 ## Blockers

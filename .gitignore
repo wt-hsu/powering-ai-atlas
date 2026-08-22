@@ -25,7 +25,7 @@ dist/
 Thumbs.db
 
 # --- Personal / non-public working files ---
-# Career and application material must never enter the public repo.
+# Personal working files never enter the repository.
 private/
 scratch/
 *_PRIVATE.md
