@@ -208,3 +208,55 @@ workflow turns both constraints into the intended quality gate: no fact is
 published that the owner has not personally traced to its source.
 
 **Status.** Adopted.
+
+---
+
+## D-014 — 2026-08-22 — Power dimension elevated to co-equal with deal structure
+
+**Decision.** Every project entering the dataset must answer four power questions
+before it can reach `PUBLISHED` status:
+
+1. **Who supplies the power** — utility, self-generation, or both?
+2. **Interconnection status** — requested, agreed, or energized?
+3. **Where the power comes from** — grid procurement, new-build generation, PPA?
+4. **Who bears the cost of new power infrastructure** — the developer, the
+   tenant, the utility's ratepayers, or undisclosed?
+
+A question with no public answer is recorded as `NOT_DISCLOSED` rather than
+skipped — the pattern of non-disclosure is itself a finding. No schema change is
+required: the answers land in existing structures (`UTILITY` / `POWER_DEVELOPER`
+/ `OFFTAKER` roles, `PPA` deal type, `GRID_CONNECTION` and
+`GENERATION_NAMEPLATE` capacity bases). This is a research-discipline rule, not
+a schema rule, so it is enforced by owner review rather than the validator.
+
+**Reasoning.** A review of the due-diligence practices of the dataset's primary
+target users — energy and site-strategy practitioners at large data-center
+operators (brief §3.4) — shows their working questions centre on utility rate
+structures, interconnection queues, and capacity-delivery strategy. The v0.1
+repositioning (D-001) weighted commercial structure heavily; without this rule
+the power dimension, which those users need first, would remain the thinnest
+layer in the dataset. It also directly serves the v0.2 roadmap (grid and power
+context), which builds on exactly these fields.
+
+**Status.** Adopted.
+
+---
+
+## D-015 — 2026-08-22 — Analyst notes as a per-project deliverable
+
+**Decision.** Each project entered into the dataset is accompanied by a short
+analyst note in `docs/ANALYST_NOTES.md`: (a) the open questions a power or
+finance practitioner would ask next about this project, and (b) how the
+project's structure compares with others already in the dataset. Notes are
+clearly separated from the dataset itself: the CSVs record disclosed facts,
+the notes record interpretation. Whether the notes file is included in the
+public v0.1 release is decided at the Phase 5 audit.
+
+**Reasoning.** The dataset records facts; the recurring comparison of those
+facts is where market interpretation accumulates, and writing it down per
+project is cheap (minutes) while reconstructing it later is expensive. Keeping
+notes in a separate file preserves the dataset's fact-only discipline (§4.6:
+no model-generated or inferred content inside the data) while still capturing
+the analytical layer that makes the dataset useful.
+
+**Status.** Adopted.

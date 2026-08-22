@@ -41,6 +41,12 @@
 
 None.
 
+## Standing research rules
+
+- Power Four Questions answered for every project before PUBLISHED (D-014)
+- Analyst note per project in docs/ANALYST_NOTES.md (D-015)
+- Two-step source verification: implementer drafts, owner confirms (D-013)
+
 ## Next three tasks
 
 1. Write `scripts/validate_data.py` covering every hard rule in the brief §8.1
