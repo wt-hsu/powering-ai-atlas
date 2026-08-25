@@ -1,6 +1,6 @@
 # 台灣 AIDC 開發案地圖・製作規格書 v2
 
-2026-08-25|狀態:**本 repo 為正本**,深色定稿依本規格由 `gen.js` 產出
+2026-08-25|狀態:**本 repo 為正本**,深色定稿依本規格由 `gen.cjs` 產出
 取代:v1(2026-08-25 上傳稿,存於會話紀錄,僅供參考)
 v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上色階段(v1 §8)併入工程;NVIDIA 改 5/27 嵌套、100MW 降側卡;新增全域確定性散置與內湖收束框;雙語(標題/圖例/警語)納入本階段;資料查核紀錄入 repo(`DATA_AUDIT.md`)。
 
@@ -35,8 +35,8 @@ v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上
 
 ## 4. 主題與色彩(v1 §8 併入工程)
 
-- **深色為母檔,淺色為變體**,同一 `gen.js` 以主題 token 產出,不維護兩份圖面程式。
-- Token(核心值,完整見 `gen.js` `THEMES`):
+- **深色為母檔,淺色為變體**,同一 `gen.cjs` 以主題 token 產出,不維護兩份圖面程式。
+- Token(核心值,完整見 `gen.cjs` `THEMES`):
 
 | token | dark | light | 用途 |
 |---|---|---|---|
@@ -74,7 +74,7 @@ v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上
 ## 8. 雙語與輸出
 
 - 本階段雙語範圍:**標題、副題訊息句、圖例、警語**中英並排;卡片內文中文為主(案名本即外文)。LinkedIn 全英文版=之後的衍生工作,資料不變、僅換文案。
-- 輸出(均由 `node gen.js` + `node shot.js` 產出):
+- 輸出(均由 `map:gen` + `map:shot` 產出):
   - `output/AIDC_map_{dark,light}.svg`:母檔 viewBox 920×660,文字保留向量(引用字體名,設計端需裝 Noto Sans TC + IBM Plex Mono)
   - `output/AIDC_map_{dark,light}.html`:自含 @font-face 預覽頁
   - `output/AIDC_map_{dark,light}@2x.png`:1840×1320
@@ -85,11 +85,11 @@ v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上
 
 ```bash
 npm install
-node gen.js    # sites.json → output/*.{svg,html},log 散置位移
-node shot.js   # Chromium 截圖 → output/*@2x.png(需 playwright-core + chromium)
+npm run map:gen    # sites.json → output/*.{svg,html},log 散置位移
+npm run map:shot   # Chromium 截圖 → output/*@2x.png(需 playwright-core + chromium)
 ```
 
-- 更新流程:改 `sites.json` → `node gen.js && node shot.js` → **目檢 PNG**(碰撞/溢出/導引線)→ 同步 `DATA_AUDIT.md` 對應列與 `audit_date`。
+- 更新流程:改 `sites.json` → `npm run map:build` → **目檢 PNG**(碰撞/溢出/導引線)→ 同步 `DATA_AUDIT.md` 對應列與 `audit_date`。
 - 待核清單(升級對外版前):見 `DATA_AUDIT.md`「待核」欄——其中 NVIDIA 27MW 全量進度、Epoch 口徑為持續追蹤項。
 
 ## 10. 已知取捨

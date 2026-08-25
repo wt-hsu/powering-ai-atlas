@@ -1,0 +1,117 @@
+---
+import Base from '../layouts/Base.astro';
+import meta from '../data/meta.json';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Base title="Powering AI Atlas">
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>The physical footprint<br />of artificial intelligence</h1>
+        <p class="lede">
+          AI feels weightless — but it runs on buildings, silicon, and gigawatts.
+          This atlas is a growing collection of interactive maps and visual essays
+          about the infrastructure powering the AI boom.
+        </p>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="section-title">Pieces</h2>
+      <div class="cards">
+        <a class="card" href={`${base}compute-map/`}>
+          <div class="card-tag">Interactive map</div>
+          <h3>Where AI Computing Lives</h3>
+          <p>
+            {meta.count}+ AI supercomputers mapped by location, power draw, and owner —
+            from hyperscale campuses to national labs.
+          </p>
+          <span class="card-cta">Explore the map →</span>
+        </a>
+
+        <div class="card card-soon">
+          <div class="card-tag">Coming soon</div>
+          <h3>The Build-out</h3>
+          <p>How fast the largest AI campuses are growing — a timeline of the construction rush.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<style>
+  .hero {
+    padding: 6rem 0 3rem;
+    background:
+      radial-gradient(ellipse 60% 50% at 70% 10%, rgba(57, 135, 229, 0.14), transparent),
+      radial-gradient(ellipse 40% 40% at 20% 80%, rgba(245, 197, 24, 0.07), transparent);
+  }
+
+  .hero h1 {
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    margin: 0 0 1rem;
+  }
+
+  .lede {
+    max-width: 38rem;
+    font-size: 1.15rem;
+    color: var(--ink-2);
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ink-muted);
+    margin: 2.5rem 0 1.25rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1.25rem;
+  }
+
+  .card {
+    display: block;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 1.5rem;
+    color: var(--ink-2);
+    transition: border-color 0.15s, transform 0.15s;
+  }
+
+  .card:hover {
+    text-decoration: none;
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+  }
+
+  .card-tag {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--glow);
+  }
+
+  .card-cta {
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .card-soon {
+    opacity: 0.55;
+  }
+
+  .card-soon .card-tag {
+    color: var(--ink-muted);
+  }
+</style>

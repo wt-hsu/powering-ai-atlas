@@ -1,0 +1,249 @@
+/* Where AI Computing Lives — map component styles */
+
+.cm-root {
+  --cm-card-bg: rgba(20, 20, 19, 0.92);
+}
+
+.cm-sample-note {
+  max-width: var(--maxw);
+  margin: 0 auto 1rem;
+  padding: 0.6rem 1.25rem;
+  color: #c98500;
+  font-size: 0.85rem;
+}
+
+/* ---- scrolly ---- */
+
+.cm-scrolly {
+  position: relative;
+}
+
+.cm-scrolly-map {
+  position: sticky;
+  top: 3.5rem; /* below site header */
+  height: calc(100vh - 3.5rem);
+  width: 100%;
+}
+
+.cm-map-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.5rem 1rem;
+  pointer-events: none;
+}
+
+.cm-steps {
+  position: relative;
+  z-index: 5;
+  margin-top: calc(-100vh + 3.5rem);
+  pointer-events: none;
+}
+
+.cm-step {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 1.25rem;
+}
+
+.cm-card {
+  pointer-events: auto;
+  max-width: 24rem;
+  margin-left: clamp(0rem, 6vw, 5rem);
+  background: var(--cm-card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem;
+  backdrop-filter: blur(6px);
+  opacity: 0.55;
+  transition: opacity 0.3s;
+}
+
+.cm-card-active {
+  opacity: 1;
+}
+
+.cm-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+}
+
+.cm-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* ---- explorer ---- */
+
+.cm-explore-heading {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.cm-explore-heading h2 {
+  font-size: 1.8rem;
+  margin: 0 0 0.4rem;
+}
+
+.cm-explore-heading p {
+  margin: 0;
+  color: var(--ink-2);
+}
+
+.cm-explorer {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.cm-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+
+.cm-filter-sep {
+  width: 1px;
+  height: 1.4rem;
+  background: var(--border);
+  margin: 0 0.35rem;
+}
+
+.cm-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font: inherit;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.cm-chip-on {
+  color: var(--ink);
+  background: var(--surface-2);
+  border-color: color-mix(in srgb, var(--chip, #898781) 60%, transparent);
+}
+
+.cm-chip:not(.cm-chip-on) .cm-dot {
+  opacity: 0.3;
+}
+
+.cm-explorer-map {
+  position: relative;
+  height: min(78vh, 44rem);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.cm-tooltip {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none;
+  background: var(--cm-card-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.82rem;
+  color: var(--ink-2);
+  max-width: 17rem;
+}
+
+.cm-tooltip strong {
+  color: var(--ink);
+  display: block;
+  margin-bottom: 0.1rem;
+}
+
+.cm-tooltip-muted {
+  color: var(--ink-muted);
+}
+
+/* ---- legend ---- */
+
+.cm-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.75rem 0;
+  font-size: 0.8rem;
+  color: var(--ink-2);
+}
+
+.cm-legend-owners,
+.cm-legend-shape {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+}
+
+.cm-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+.cm-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex: none;
+}
+
+.cm-dot-hollow {
+  background: transparent !important;
+  border: 2px solid;
+}
+
+.cm-size-demo {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.cm-size-demo i {
+  display: inline-block;
+  border-radius: 50%;
+  background: #898781;
+}
+
+.cm-legend-compact {
+  display: inline-flex;
+  background: var(--cm-card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.5rem 0.8rem;
+  pointer-events: auto;
+}
+
+.cm-legend-compact .cm-legend-shape {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .cm-card {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .cm-explorer-map {
+    height: 65vh;
+  }
+
+  .cm-legend-compact {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.6rem;
+  }
+}
