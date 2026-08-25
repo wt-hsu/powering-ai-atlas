@@ -2,7 +2,11 @@
 import Base from '../layouts/Base.astro';
 import meta from '../data/meta.json';
 
-const base = import.meta.env.BASE_URL;
+// BASE_URL may come with or without a trailing slash — normalize so links
+// like `${base}compute-map/` never lose the separator
+const base = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
 ---
 
 <Base title="Powering AI Atlas">
