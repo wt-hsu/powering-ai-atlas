@@ -1,0 +1,103 @@
+/* 台灣 AIDC 互動地圖 — 補充樣式(通用件沿用 compute-map.css 的 cm-*) */
+
+.ta-root {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.ta-map {
+  position: relative;
+  height: min(78vh, 680px);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #0a101c;
+}
+
+.ta-hint {
+  align-self: center;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin-left: auto;
+}
+
+/* 圖例色票:斜線區與廊帶 */
+.ta-swatch-hatch {
+  display: inline-block;
+  width: 16px;
+  height: 11px;
+  border: 1px solid #5a6b82;
+  border-radius: 2px;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent 0 3px,
+    rgba(143, 163, 189, 0.55) 3px 4px
+  );
+}
+
+.ta-swatch-dash {
+  display: inline-block;
+  width: 16px;
+  height: 0;
+  border-top: 2px dashed #bd8628;
+}
+
+/* MapLibre popup 深色化 */
+.ta-map .maplibregl-popup-content {
+  background: var(--surface);
+  color: var(--ink-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.7rem 0.85rem;
+  font-family: var(--font-sans);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+.ta-map .maplibregl-popup-anchor-bottom .maplibregl-popup-tip {
+  border-top-color: var(--surface);
+}
+
+.ta-map .maplibregl-popup-anchor-top .maplibregl-popup-tip {
+  border-bottom-color: var(--surface);
+}
+
+.ta-map .maplibregl-popup-close-button {
+  color: var(--ink-muted);
+  font-size: 1.1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.ta-popup strong {
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.ta-popup-row {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  margin-top: 0.25rem;
+}
+
+.ta-popup-mw {
+  font-weight: 600;
+  color: #00a3b8;
+  font-variant-numeric: tabular-nums;
+}
+
+.ta-popup-status {
+  font-size: 0.78rem;
+  color: var(--ink-2);
+}
+
+.ta-popup-note {
+  font-size: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+.ta-popup-muted {
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+  margin-top: 0.4rem;
+}
