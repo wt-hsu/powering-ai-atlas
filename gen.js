@@ -225,7 +225,7 @@ function build(themeName) {
     { status: 'construction', name: 'Microsoft 蘆竹', value: '50MW' },
     { status: 'construction', name: 'Keppel/DDSP', value: '80MW' },
     { status: 'operating', name: '台灣大×Vantage', value: '25MW·IT16' },
-    { status: 'undisclosed', name: '中華電 崙坪', value: '未揭露', note: '2026 完工' }
+    { status: 'operating', name: '中華電 崙坪', value: '≤36MW', note: '2026-08 啟用;分階段至 36MW' }
   ], T);
   s += tao.svg;
   leaders.push([LX + LW, ly + tao.h / 2, enclosing(clusters.taoyuan)]);
@@ -240,7 +240,7 @@ function build(themeName) {
   ly += ch.h + 8;
 
   const tc = card(LX, ly, LW, '台中', 'TAICHUNG', [
-    { status: 'operating', name: '是方 中科', value: '20MW', note: '另核准 NT$30 億建新座' }
+    { status: 'undisclosed', name: '是方 中科', value: '未揭露', note: '核准 NT$30 億;2028 商轉' }
   ], T);
   s += tc.svg;
   // 南繞:轉折點放在 Google 大圓以東,再向北接入台中圓
@@ -281,9 +281,9 @@ function build(themeName) {
   s += `<rect x="${RX}" y="${ry}" width="${RW}" height="${polH}" rx="4" fill="${T.card}" stroke="${T.cardBorder}"/>`;
   s += `<rect x="${RX + 9}" y="${ry + 10}" width="16" height="12" fill="url(#hatch)" stroke="${T.hatch}" stroke-width="0.8"/>`;
   s += text(RX + 31, ry + 20, '北北基桃・5MW+ 暫緩供電區', { size: 9, fill: T.ink, weight: 700 });
-  s += text(RX + 9, ry + 35, '2024 起實施(決策 2023 年底)。', { size: 8.4, fill: T.ink2 });
-  s += text(RX + 9, ry + 47, '2026-07 研議「電廠周邊算力專區」', { size: 8.4, fill: T.ink2 });
-  s += text(RX + 9, ry + 59, '有條件鬆綁,未廢止。', { size: 8.4, fill: T.ink2 });
+  s += text(RX + 9, ry + 35, '2024 起實施(2023-09 台電決策)。', { size: 8.4, fill: T.ink2 });
+  s += text(RX + 9, ry + 47, '2026-07 有條件解禁:大潭、協和', { size: 8.4, fill: T.ink2 });
+  s += text(RX + 9, ry + 59, '電廠周邊約 2 公里,政策未廢止。', { size: 8.4, fill: T.ink2 });
   s += text(RX + 9, ry + 70, 'Grid moratorium zone for 5MW+ DCs', { size: 7.4, fill: T.ink3, family: MONO });
   ry += polH + 10;
 

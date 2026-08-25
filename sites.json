@@ -67,11 +67,11 @@
       "region": "桃園觀音",
       "cluster": "taoyuan",
       "lonlat": [121.155, 25.018],
-      "mw_draw": null,
-      "mw_label": "未揭露",
-      "status": "undisclosed",
-      "timeline": "2026 完工",
-      "grade": "B/C"
+      "mw_draw": 36,
+      "mw_label": "≤36MW",
+      "status": "operating",
+      "timeline": "2026-08 完工啟用;分階段建置,總容量上限 36MW",
+      "grade": "B"
     },
     {
       "id": "chief_nh",
@@ -115,10 +115,10 @@
       "region": "台中",
       "cluster": "taichung",
       "lonlat": [120.617, 24.211],
-      "mw_draw": 20,
-      "mw_label": "20MW",
-      "status": "operating",
-      "timeline": "另核准 NT$30 億建新座",
+      "mw_draw": null,
+      "mw_label": "未揭露",
+      "status": "undisclosed",
+      "timeline": "2026-03 核准 NT$30 億;預計 2028 商轉(v1「20MW 營運中」查無佐證,疑與內湖 LY2 混淆)",
       "grade": "B"
     },
     {
