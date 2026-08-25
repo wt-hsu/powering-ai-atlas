@@ -1,0 +1,9 @@
+{
+  "sample": true,
+  "updated": "2026-08-25",
+  "count": 15,
+  "source": "Epoch AI, “AI Supercomputers” dataset",
+  "sourceUrl": "https://epoch.ai/data/ai-supercomputers",
+  "license": "CC BY 4.0",
+  "skippedNoCoords": 0
+}

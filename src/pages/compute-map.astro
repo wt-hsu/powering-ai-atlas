@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import ComputeMap from '../components/ComputeMap.jsx';
+import meta from '../data/meta.json';
+---
+
+<Base
+  title="Where AI Computing Lives — Powering AI Atlas"
+  description="An interactive map of the world's AI supercomputers: where they are, who owns them, and how much power they draw."
+>
+  <main>
+    <article>
+      <header class="piece-header container">
+        <p class="kicker">Powering AI Atlas · No. 1</p>
+        <h1>Where AI Computing Lives</h1>
+        <p class="standfirst">
+          The world's AI models are trained in a few hundred buildings you can point to on a map.
+          Scroll to see where the compute is — and how much electricity it takes.
+        </p>
+        <p class="byline">
+          By Wanting Hsu · Data: <a href={meta.sourceUrl} target="_blank" rel="noopener">{meta.source}</a>
+          (CC BY 4.0) · Updated {meta.updated}
+        </p>
+      </header>
+
+      <ComputeMap client:only="react" />
+
+      <section class="notes container">
+        <h2>Method &amp; sources</h2>
+        <p>
+          Site locations, power capacity, and hardware estimates come from the
+          <a href={meta.sourceUrl} target="_blank" rel="noopener">{meta.source}</a>, released under
+          CC BY 4.0. Power figures mix reported and estimated values; hollow markers are announced
+          or under-construction projects whose final capacity may change. Facilities in China are
+          excluded because the source anonymizes their locations. Household-electricity comparisons
+          assume ~10.8 MWh per US home per year. Basemap ©
+          <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>
+          contributors, © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>.
+        </p>
+      </section>
+    </article>
+  </main>
+</Base>
+
+<style>
+  .piece-header {
+    padding: 4rem 1.25rem 2.5rem;
+    max-width: 46rem;
+  }
+
+  .kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 0.78rem;
+    color: var(--glow);
+    margin: 0 0 0.75rem;
+  }
+
+  .piece-header h1 {
+    font-size: clamp(2.2rem, 6vw, 3.6rem);
+    margin: 0 0 1rem;
+  }
+
+  .standfirst {
+    font-size: 1.2rem;
+    color: var(--ink-2);
+  }
+
+  .byline {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+
+  .notes {
+    max-width: 46rem;
+    margin-top: 3.5rem;
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+  }
+
+  .notes h2 {
+    font-size: 1.1rem;
+  }
+</style>

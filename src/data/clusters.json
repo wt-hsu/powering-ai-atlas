@@ -1,0 +1,17 @@
+[
+  { "name": "xAI Colossus", "owner": "xAI", "ownerKey": "other", "country": "United States", "lat": 35.033, "lng": -90.144, "mw": 300, "h100e": 200000, "status": "operational", "year": 2024 },
+  { "name": "xAI Colossus 2", "owner": "xAI", "ownerKey": "other", "country": "United States", "lat": 35.06, "lng": -90.05, "mw": 1494, "h100e": 1389590, "status": "upcoming", "year": 2026 },
+  { "name": "Stargate Abilene (OpenAI / Oracle)", "owner": "OpenAI", "ownerKey": "openai", "country": "United States", "lat": 32.449, "lng": -99.733, "mw": 1200, "h100e": 900000, "status": "upcoming", "year": 2026 },
+  { "name": "Microsoft Fairwater", "owner": "Microsoft", "ownerKey": "microsoft", "country": "United States", "lat": 42.72, "lng": -87.88, "mw": 700, "h100e": 500000, "status": "upcoming", "year": 2026 },
+  { "name": "Meta Prometheus", "owner": "Meta", "ownerKey": "meta", "country": "United States", "lat": 40.08, "lng": -82.8, "mw": 1000, "h100e": 600000, "status": "upcoming", "year": 2026 },
+  { "name": "Meta Hyperion", "owner": "Meta", "ownerKey": "meta", "country": "United States", "lat": 32.4, "lng": -91.7, "mw": 1500, "h100e": 1000000, "status": "upcoming", "year": 2027 },
+  { "name": "AWS Project Rainier", "owner": "Amazon", "ownerKey": "amazon", "country": "United States", "lat": 41.7, "lng": -86.5, "mw": 1000, "h100e": 800000, "status": "upcoming", "year": 2026 },
+  { "name": "Google Council Bluffs", "owner": "Google", "ownerKey": "google", "country": "United States", "lat": 41.221, "lng": -95.862, "mw": 300, "h100e": 250000, "status": "operational", "year": 2023 },
+  { "name": "Tesla Cortex", "owner": "Tesla", "ownerKey": "other", "country": "United States", "lat": 30.22, "lng": -97.62, "mw": 130, "h100e": 100000, "status": "operational", "year": 2024 },
+  { "name": "Frontier (Oak Ridge National Laboratory)", "owner": "US Department of Energy", "ownerKey": "other", "country": "United States", "lat": 35.93, "lng": -84.31, "mw": 30, "h100e": 60000, "status": "operational", "year": 2022 },
+  { "name": "JUPITER (Forschungszentrum Jülich)", "owner": "EuroHPC", "ownerKey": "other", "country": "Germany", "lat": 50.905, "lng": 6.412, "mw": 17, "h100e": 24000, "status": "operational", "year": 2025 },
+  { "name": "Fugaku (RIKEN)", "owner": "RIKEN", "ownerKey": "other", "country": "Japan", "lat": 34.655, "lng": 135.22, "mw": 30, "h100e": 20000, "status": "operational", "year": 2020 },
+  { "name": "Isambard-AI", "owner": "University of Bristol", "ownerKey": "other", "country": "United Kingdom", "lat": 51.46, "lng": -2.6, "mw": 5, "h100e": 5500, "status": "operational", "year": 2025 },
+  { "name": "G42 / Microsoft Abu Dhabi", "owner": "Microsoft", "ownerKey": "microsoft", "country": "United Arab Emirates", "lat": 24.42, "lng": 54.62, "mw": 500, "h100e": 300000, "status": "upcoming", "year": 2027 },
+  { "name": "NVIDIA Eos", "owner": "NVIDIA", "ownerKey": "other", "country": "United States", "lat": 37.37, "lng": -121.96, "mw": 40, "h100e": 40000, "status": "operational", "year": 2023 }
+]
