@@ -10,7 +10,7 @@ visual essays about the physical footprint of artificial intelligence.
 | Piece | Path | Status |
 |---|---|---|
 | Where AI Computing Lives — global map of AI supercomputers | `/compute-map/` | v1 |
-| 台灣 AIDC 開發案地圖 — Taiwan AI data center map (static SVG/PNG) | `output/` | v1 |
+| 台灣 AIDC 開發案地圖 — Taiwan AI data center map | `/taiwan-aidc/` | v1 |
 | The Build-out — timeline of the largest AI campuses | — | planned |
 
 ## Tech
