@@ -78,6 +78,7 @@ v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上
   - `output/AIDC_map_{dark,light}.svg`:母檔 viewBox 920×660,文字保留向量(引用字體名,設計端需裝 Noto Sans TC + IBM Plex Mono)
   - `output/AIDC_map_{dark,light}.html`:自含 @font-face 預覽頁
   - `output/AIDC_map_{dark,light}@2x.png`:1840×1320
+  - 互動版 `/taiwan-aidc/`(網站頁,MapLibre):`scripts/prepare-taiwan.mjs` 自 `sites.json` 產 `src/data/taiwan-aidc.json`(案場點+北北基桃縣界面+廊帶框+自帶海岸/縣界線),視覺編碼沿用本規格(實心/空心/嵌套、面積∝MW、調色同 token)
 - 字體 vendor 於 `assets/fonts/`(OFL 授權,授權檔同目錄),PNG 輸出不依賴環境字體。
 - LinkedIn 裁切 1200×627:自 PNG 裁切,右欄兩欄改一欄之重排屬衍生版工作,不改母檔。
 
@@ -89,7 +90,7 @@ npm run map:gen    # sites.json → output/*.{svg,html},log 散置位移
 npm run map:shot   # Chromium 截圖 → output/*@2x.png(需 playwright-core + chromium)
 ```
 
-- 更新流程:改 `sites.json` → `npm run map:build` → **目檢 PNG**(碰撞/溢出/導引線)→ 同步 `DATA_AUDIT.md` 對應列與 `audit_date`。
+- 更新流程:改 `sites.json` → `npm run map:build`(靜態 SVG/PNG+互動版資料一起重產)→ **目檢 PNG** → 同步 `DATA_AUDIT.md` 對應列與 `audit_date`。
 - 待核清單(升級對外版前):見 `DATA_AUDIT.md`「待核」欄——其中 NVIDIA 27MW 全量進度、Epoch 口徑為持續追蹤項。
 
 ## 10. 已知取捨

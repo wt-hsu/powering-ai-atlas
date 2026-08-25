@@ -1,23 +1,18 @@
 ---
-import fs from 'node:fs';
 import Base from '../layouts/Base.astro';
-
-// 建置時內嵌 gen.cjs 產出的深色母檔;@font-face 指向 repo 相對路徑,
-// 站上改由 Google Fonts 供字,故拆掉 SVG 內嵌的 style 區塊。
-const svg = fs
-  .readFileSync(new URL('../../output/AIDC_map_dark.svg', import.meta.url), 'utf8')
-  .replace(/<style>[\s\S]*?<\/style>/, '');
+import TaiwanAidcMap from '../components/TaiwanAidcMap.jsx';
+import data from '../data/taiwan-aidc.json';
 
 const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
 ---
 
 <Base
   title="台灣 AIDC 開發案地圖 — Powering AI Atlas"
-  description="台灣 AI 資料中心開發案地圖:需求最密的北部正是供電最緊的北部,成長的出口在南部算力廊帶。Taiwan's AI data centers, mapped against its grid constraints."
+  description="台灣 AI 資料中心開發案互動地圖:需求最密的北部正是供電最緊的北部,成長的出口在南部算力廊帶。Taiwan's AI data centers, mapped against its grid constraints."
 >
   <link
     slot="head"
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
     rel="stylesheet"
   />
 
@@ -31,26 +26,34 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
           Taiwan's AI data center boom, mapped against the grid that constrains it.
         </p>
         <p class="byline">
-          By Wanting Hsu · 資料查核日 2026-08-25 ·
+          By Wanting Hsu · 資料查核日 {data.auditDate} ·
           <a href={`${repo}/blob/main/DATA_AUDIT.md`} target="_blank" rel="noopener">逐案來源 DATA_AUDIT</a>
         </p>
       </header>
 
-      <figure class="map-figure container" set:html={svg} />
+      <TaiwanAidcMap client:only="react" />
 
       <section class="notes container">
+        <h2>不入圖・側記 Off-map</h2>
+        <ul>
+          {data.sidecard.map((line) => <li>{line}</li>)}
+        </ul>
+
         <h2>讀圖前提 Method &amp; caveats</h2>
         <p>
           圓面積 ≈ 各案公開揭露容量,口徑依個案不同(契約容量/最大負載/IT 負載),圖上不做容量加總。
-          座標為鄉鎮級示意;密集區點位經確定性散置以利閱讀。狀態語意由形狀承擔(實心=營運、虛線=建置/規劃、菱形=規模未揭露),顏色僅作加強。
-          規模未揭露或區位未揭露者(AWS 台北區域、中華電 20 座 IDC 升級)誠實列於側記,不畫猜測點位。
+          座標為鄉鎮級示意,只承諾行政區、不承諾街廓。狀態語意:實心=營運中、空心=建置/規劃中、灰空心=規模未揭露。
+          高雄 NVIDIA×鴻海為嵌套畫法:內實圈=已商轉容量、外空圈=首期建置上限。
         </p>
         <p>
           資料為公開報導與官方新聞稿彙整,逐案來源、可信度評級與待核清單見
           <a href={`${repo}/blob/main/DATA_AUDIT.md`} target="_blank" rel="noopener">DATA_AUDIT.md</a>;
           製作規格見 <a href={`${repo}/blob/main/SPEC.md`} target="_blank" rel="noopener">SPEC.md</a>。
-          圖面由 <a href={repo} target="_blank" rel="noopener">sites.json + gen.cjs</a> 產生,可重跑重現。
+          靜態海報版(SVG/PNG,深淺兩色)在
+          <a href={`${repo}/tree/main/output`} target="_blank" rel="noopener">output/</a>。
           縣市界:內政部,經 <a href="https://www.npmjs.com/package/taiwan-atlas" target="_blank" rel="noopener">taiwan-atlas</a>。
+          Basemap © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>
+          contributors, © <a href="https://carto.com/attributions" target="_blank" rel="noopener">CARTO</a>.
         </p>
       </section>
     </article>
@@ -86,21 +89,6 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
     color: var(--ink-muted);
   }
 
-  .map-figure {
-    margin: 0 auto;
-    padding: 0 1.25rem;
-  }
-
-  .map-figure :global(svg) {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    background: #0a101c;
-    font-family: 'Noto Sans TC', 'WenQuanYi Zen Hei', sans-serif;
-  }
-
   .notes {
     max-width: 46rem;
     margin-top: 3.5rem;
@@ -110,5 +98,9 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
 
   .notes h2 {
     font-size: 1.1rem;
+  }
+
+  .notes ul {
+    padding-left: 1.2rem;
   }
 </style>
