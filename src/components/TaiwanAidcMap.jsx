@@ -105,7 +105,10 @@ export default function TaiwanAidcMap() {
   const onClick = (e) => {
     const f = e.features && e.features[0];
     if (f) {
-      setSelected({ lng: f.geometry.coordinates[0], lat: f.geometry.coordinates[1], p: f.properties });
+      const [lng, lat] = f.geometry.coordinates;
+      setSelected({ lng, lat, p: f.properties });
+      // 置中被點擊的案場,popup 四周都有空間,窄螢幕也不會被裁
+      e.target.easeTo({ center: [lng, lat], duration: 450 });
     } else setSelected(null);
   };
 
@@ -121,7 +124,7 @@ export default function TaiwanAidcMap() {
             {f.label}
           </button>
         ))}
-        <span className="ta-hint">滑鼠拖曳平移、滾輪縮放,點擊案場看細節</span>
+        <span className="ta-hint">點擊案場看細節</span>
       </div>
 
       <div className="ta-map">
@@ -131,7 +134,13 @@ export default function TaiwanAidcMap() {
           minZoom={5.5}
           maxZoom={13}
           maxBounds={[[116.5, 19.8], [125.5, 27.5]]}
-          interactiveLayerIds={['ta-solid', 'ta-hollow', 'ta-undisclosed']}
+          cooperativeGestures
+          locale={{
+            'CooperativeGesturesHandler.WindowsHelpText': '按住 Ctrl 並滾動滑鼠來縮放地圖',
+            'CooperativeGesturesHandler.MacHelpText': '按住 ⌘ 並滾動滑鼠來縮放地圖',
+            'CooperativeGesturesHandler.MobileHelpText': '用兩指移動地圖',
+          }}
+          interactiveLayerIds={['ta-hit']}
           onMouseMove={onMove}
           onMouseLeave={() => setHover(null)}
           onClick={onClick}
@@ -213,6 +222,16 @@ export default function TaiwanAidcMap() {
                 'circle-stroke-color': 'rgba(10,16,28,0.9)',
               }}
             />
+            {/* 透明放大 hit 區:手機指尖也點得中最小的案場 */}
+            <Layer
+              id="ta-hit"
+              type="circle"
+              paint={{
+                'circle-radius': ['+', radiusExpr, 10],
+                'circle-color': '#000000',
+                'circle-opacity': 0,
+              }}
+            />
             {/* NVIDIA 嵌套:外虛圈=建置上限(上面 hollow 層),內實圈=已商轉容量 */}
             <Layer
               id="ta-nested-core"
@@ -238,11 +257,10 @@ export default function TaiwanAidcMap() {
             <Popup
               longitude={selected.lng}
               latitude={selected.lat}
-              anchor="bottom"
               offset={14}
               closeOnClick={false}
               onClose={() => setSelected(null)}
-              maxWidth="300px"
+              maxWidth="min(300px, 78vw)"
             >
               <div className="ta-popup">
                 <strong>{selected.p.name}</strong>
