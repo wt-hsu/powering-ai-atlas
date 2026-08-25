@@ -1,5 +1,159 @@
 [
  {
+  "name": "Colossus 2",
+  "owner": "xAI",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 35.1495,
+  "lng": -90.049,
+  "mw": 1494,
+  "h100e": 1389590.7023749368,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Anthropic-Amazon New Carlisle",
+  "owner": "Amazon",
+  "ownerKey": "amazon",
+  "country": "United States",
+  "lat": 41.7056,
+  "lng": -86.5014,
+  "mw": 1092,
+  "h100e": 687215.7655381506,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Microsoft Fairwater Atlanta",
+  "owner": "Microsoft",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 33.4418,
+  "lng": -84.4549,
+  "mw": 859,
+  "h100e": 742799.393633148,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "QTS Richmond",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 37.5243,
+  "lng": -77.3191,
+  "mw": 854,
+  "h100e": 492167.7614957049,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Meta Prometheus",
+  "owner": "Meta",
+  "ownerKey": "meta",
+  "country": "United States",
+  "lat": 40.0814,
+  "lng": -82.796,
+  "mw": 731,
+  "h100e": 677109.6513390602,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "OpenAI Stargate Abilene",
+  "owner": "Oracle",
+  "ownerKey": "openai",
+  "country": "United States",
+  "lat": 32.4487,
+  "lng": -99.7331,
+  "mw": 590,
+  "h100e": 510358.7670540677,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Pryor (North)",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 36.3042,
+  "lng": -95.3169,
+  "mw": 454,
+  "h100e": 308236.4830722587,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Microsoft Fairwater Wisconsin",
+  "owner": "Microsoft",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 42.7197,
+  "lng": -87.8784,
+  "mw": 442,
+  "h100e": 445679.63617988885,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Colossus 1",
+  "owner": "xAI",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 35.1495,
+  "lng": -90.049,
+  "mw": 425.38,
+  "h100e": 275795.85649317835,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google New Albany",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 40.0814,
+  "lng": -82.796,
+  "mw": 407,
+  "h100e": 207175.3410813542,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Columbus",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 39.9612,
+  "lng": -82.9988,
+  "mw": 364,
+  "h100e": 215260.23244062657,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
   "name": "xAI Colossus Memphis Phase 3",
   "owner": "xAI",
   "ownerKey": "other",
@@ -9,31 +163,190 @@
   "mw": 352.352,
   "h100e": 275795.85649723833,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
-  "name": "xAI Colossus Memphis Phase 2",
-  "owner": "xAI",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 35.069154,
-  "lng": -90.118494,
-  "mw": 280.28,
-  "h100e": 200000.000002945,
-  "status": "operational",
-  "year": 2025
+  "name": "Amazon Madison Mega Site",
+  "owner": "Amazon",
+  "ownerKey": "amazon",
+  "country": "United States",
+  "lat": 32.61,
+  "lng": -90.04,
+  "mw": 341,
+  "h100e": 214348.14354550533,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
  },
  {
-  "name": "xAI Colossus Memphis Phase 1",
-  "owner": "xAI",
+  "name": "DayOne Nusajaya",
+  "owner": "Undisclosed",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 35.069154,
-  "lng": -90.118494,
-  "mw": 142.688,
-  "h100e": 100000.00000147166,
-  "status": "operational",
-  "year": 2024
+  "country": "Malaysia",
+  "lat": 3.139,
+  "lng": 101.6869,
+  "mw": 336,
+  "h100e": 281455.280444669,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "Google Omaha",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 41.2565,
+  "lng": -95.9345,
+  "mw": 284,
+  "h100e": 135927.23597776654,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Papillion",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 41.0197,
+  "lng": -96.0447,
+  "mw": 284,
+  "h100e": 80343.60788276908,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Amazon Ridgeland",
+  "owner": "Amazon",
+  "ownerKey": "amazon",
+  "country": "United States",
+  "lat": 32.4085,
+  "lng": -90.1323,
+  "mw": 273,
+  "h100e": 171478.51483640424,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Microsoft Goodyear",
+  "owner": "Microsoft",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 33.4353,
+  "lng": -112.3576,
+  "mw": 263,
+  "h100e": 205145.18579951796,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Microsoft Project Osmium",
+  "owner": "Microsoft",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 41.4709,
+  "lng": -93.7636,
+  "mw": 228,
+  "h100e": 151591.71298635675,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Storey County",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 39.55,
+  "lng": -119.53,
+  "mw": 214,
+  "h100e": 89439.11066195049,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "Alibaba Zhangbei",
+  "owner": "Alibaba",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 41.1,
+  "lng": 114.7,
+  "mw": 203,
+  "h100e": 132895.40171803941,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "Meta Temple",
+  "owner": "Meta",
+  "ownerKey": "meta",
+  "country": "United States",
+  "lat": 31.0982,
+  "lng": -97.3428,
+  "mw": 198,
+  "h100e": 173247.6719844078,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Council Bluffs (East)",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 41.2619,
+  "lng": -95.8608,
+  "mw": 190,
+  "h100e": 92470.94492167761,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google The Dalles",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 45.5946,
+  "lng": -121.1787,
+  "mw": 185,
+  "h100e": 110156.6447700859,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "CoreWeave Denton TX",
+  "owner": "CoreWeave",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 33.2148,
+  "lng": -97.1331,
+  "mw": 183.4,
+  "h100e": 126326.42748863062,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
  },
  {
   "name": "Meta 100k",
@@ -45,7 +358,8 @@
   "mw": 142.688,
   "h100e": 100000.00000147166,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "OpenAI/Microsoft Goodyear Arizona",
@@ -57,7 +371,50 @@
   "mw": 142.688,
   "h100e": 100000.00000147166,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
+ },
+ {
+  "name": "STACK Infrastructure NVA02",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 38.7509,
+  "lng": -77.4753,
+  "mw": 118,
+  "h100e": 61141.99090449722,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Microsoft SAT40",
+  "owner": "Microsoft",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 29.4241,
+  "lng": -98.4936,
+  "mw": 106,
+  "h100e": 64679.13087417888,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Oracle Batam",
+  "owner": "Oracle",
+  "ownerKey": "other",
+  "country": "Indonesia",
+  "lat": -6.2088,
+  "lng": 106.8456,
+  "mw": 94,
+  "h100e": 84386.05356240526,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
  },
  {
   "name": "Oracle OCI Supercluster H200s",
@@ -69,11 +426,40 @@
   "mw": 93.51200768000001,
   "h100e": 65536.0000009646,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
+ },
+ {
+  "name": "Google Red Oak",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 32.5165,
+  "lng": -96.8047,
+  "mw": 93,
+  "h100e": 46791.30874178878,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Midlothian",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 32.4818,
+  "lng": -97.0058,
+  "mw": 82,
+  "h100e": 56088.933804951994,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -81,19 +467,22 @@
   "mw": 80,
   "h100e": null,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
-  "name": "Argonne NL Aurora",
-  "owner": "US Department of Energy",
+  "name": "Stream Phoenix",
+  "owner": "Undisclosed",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 41.718369,
-  "lng": -87.978791,
-  "mw": 77.96146176,
-  "h100e": 1688.781162228007,
-  "status": "operational",
-  "year": 2024
+  "country": "United States",
+  "lat": 33.4484,
+  "lng": -112.074,
+  "mw": 77,
+  "h100e": 46134.4113188479,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
  },
  {
   "name": "Tesla Cortex Phase 1",
@@ -105,19 +494,49 @@
   "mw": 71.344,
   "h100e": 50000.00000073623,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
-  "name": "Lawrence Livermore NL El Capitan Phase 2",
+  "name": "Fluidstack Lake Mariner",
+  "owner": "Fluidstack",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 43.3292,
+  "lng": -78.5417,
+  "mw": 68,
+  "h100e": 71753.4108135422,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Microsoft SAT14",
+  "owner": "Microsoft",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 29.4241,
+  "lng": -98.4936,
+  "mw": 66,
+  "h100e": 45174.33046993431,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Argonne NL Aurora",
   "owner": "US Department of Energy",
   "ownerKey": "other",
   "country": "United States of America",
-  "lat": 37.682018,
-  "lng": -121.768374,
-  "mw": 69.00685209600002,
-  "h100e": 44143.351592362786,
+  "lat": 41.718369,
+  "lng": -87.978791,
+  "mw": 60,
+  "h100e": 1688.781162228007,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "CoreWeave H200s",
@@ -129,7 +548,22 @@
   "mw": 59.92896000000001,
   "h100e": 42000.00000061847,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
+ },
+ {
+  "name": "Vantage TX1",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 33.4353,
+  "lng": -112.3576,
+  "mw": 44.8,
+  "h100e": 38706.417382516425,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
  },
  {
   "name": "Oak Ridge NL Frontier",
@@ -138,10 +572,25 @@
   "country": "United States of America",
   "lat": 36.010294,
   "lng": -84.269567,
-  "mw": 40.066790399999995,
+  "mw": 40,
   "h100e": 7282.99949480149,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
+ },
+ {
+  "name": "Start Campus Sines Data Campus",
+  "owner": "Nscale",
+  "ownerKey": "microsoft",
+  "country": "Portugal",
+  "lat": 38.7169,
+  "lng": -9.1399,
+  "mw": 40,
+  "h100e": 31834.259727134915,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
  },
  {
   "name": "Meta GenAI 2024b",
@@ -153,7 +602,8 @@
   "mw": 35.067002880000004,
   "h100e": 24576.000000361928,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Meta GenAI 2024a",
@@ -165,23 +615,38 @@
   "mw": 35.067002880000004,
   "h100e": 24576.000000361928,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
-  "name": "\"Jupiter, Jülich\"",
-  "owner": "EuroHPC JU,Julich Supercomputing Center",
+  "name": "Lawrence Livermore NL El Capitan Phase 2",
+  "owner": "US Department of Energy",
   "ownerKey": "other",
-  "country": "Germany",
-  "lat": 50.921734,
-  "lng": 6.358342,
-  "mw": 32.9833504,
-  "h100e": 23536.00000034651,
+  "country": "United States of America",
+  "lat": 37.682018,
+  "lng": -121.768374,
+  "mw": 35,
+  "h100e": 44143.351592362786,
   "status": "operational",
-  "year": 2025
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 30,
+  "h100e": 3000,
+  "status": "operational",
+  "year": null,
+  "cert": true
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -189,19 +654,8 @@
   "mw": 30,
   "h100e": 500,
   "status": "operational",
-  "year": 2020
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": 30,
-  "h100e": null,
-  "status": "operational",
-  "year": 2013
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Oracle OCI Supercluster A100s",
@@ -213,7 +667,8 @@
   "mw": 27.194818559999998,
   "h100e": 10332.103082516944,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Oracle OCI MI300x",
@@ -225,7 +680,8 @@
   "mw": 25.0478592,
   "h100e": 21648.570793648592,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Google Oklahoma TPU v4 Pods",
@@ -237,7 +693,8 @@
   "mw": 23.723900928,
   "h100e": 4553.410813609226,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "NexGen Cloud Hyperstack AQ Compute Supercomputer",
@@ -249,7 +706,8 @@
   "mw": 23.378001920000003,
   "h100e": 16384.00000024128,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Oracle OCI Supercluster H100s",
@@ -261,7 +719,8 @@
   "mw": 23.378001920000003,
   "h100e": 16384.00000024128,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Microsoft GPT-4 cluster",
@@ -273,7 +732,8 @@
   "mw": 21.294,
   "h100e": 7882.769075406651,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": false
  },
  {
   "name": "Microsoft Azure Eagle",
@@ -285,7 +745,8 @@
   "mw": 20.913984,
   "h100e": 14400.000000212056,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Gemini 1.0 Ultra training cluster A",
@@ -297,11 +758,12 @@
   "mw": 20.226146304,
   "h100e": 3984.234461908105,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -309,11 +771,12 @@
   "mw": 20,
   "h100e": 300,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -321,7 +784,34 @@
   "mw": 20,
   "h100e": 90,
   "status": "operational",
-  "year": 2017
+  "year": 2017,
+  "cert": false
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 20,
+  "h100e": null,
+  "status": "operational",
+  "year": 2013,
+  "cert": true
+ },
+ {
+  "name": "\"Jupiter, Jülich\"",
+  "owner": "EuroHPC JU,Julich Supercomputing Center",
+  "ownerKey": "other",
+  "country": "Germany",
+  "lat": 50.921734,
+  "lng": 6.358342,
+  "mw": 18,
+  "h100e": 23536.00000034651,
+  "status": "operational",
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "NVIDIA CoreWeave Eos-DFW Phase 1",
@@ -333,7 +823,8 @@
   "mw": 15.61577472,
   "h100e": 10752.000000158252,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Meta 2017 V100 Cluster",
@@ -345,19 +836,8 @@
   "mw": 15.49548,
   "h100e": 1389.590702395391,
   "status": "operational",
-  "year": 2017
- },
- {
-  "name": "Alps Supercomputer Phase 2",
-  "owner": "ETH Domain",
-  "ownerKey": "other",
-  "country": "Switzerland",
-  "lat": 46.024451,
-  "lng": 8.960052,
-  "mw": 15.34181376,
-  "h100e": 10752.000000158252,
-  "status": "operational",
-  "year": 2024
+  "year": 2017,
+  "cert": true
  },
  {
   "name": "Imbue 10k Cluster",
@@ -369,7 +849,8 @@
   "mw": 14.523599999999998,
   "h100e": 10000.000000147247,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Tesla 10k H100 Cluster",
@@ -381,7 +862,8 @@
   "mw": 14.523599999999998,
   "h100e": 10000.000000147247,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Eni HPC6",
@@ -393,7 +875,8 @@
   "mw": 14.1546496,
   "h100e": 2687.7736230815135,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Meta Research SuperCluster (RSC-1) Phase 2",
@@ -405,31 +888,8 @@
   "mw": 13.278719999999998,
   "h100e": 5044.972208260219,
   "status": "operational",
-  "year": 2023
- },
- {
-  "name": "EuroHPC LUMI",
-  "owner": "EuroHPC JU",
-  "ownerKey": "other",
-  "country": "Finland",
-  "lat": 64.233706,
-  "lng": 27.703313,
-  "mw": 12.682706399999999,
-  "h100e": 2305.354219336614,
-  "status": "operational",
-  "year": 2022
- },
- {
-  "name": "Lawrence Livermore NL Sierra",
-  "owner": "US Department of Energy",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 37.682018,
-  "lng": -121.768374,
-  "mw": 11.8879488,
-  "h100e": 1091.4603335178444,
-  "status": "operational",
-  "year": 2018
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "EuroHPC Leonardo",
@@ -438,10 +898,50 @@
   "country": "Italy",
   "lat": 44.522194,
   "lng": 11.338427,
-  "mw": 11.774730239999998,
+  "mw": 12.5985,
   "h100e": 4358.855987936838,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
+ },
+ {
+  "name": "EuroHPC LUMI",
+  "owner": "EuroHPC JU",
+  "ownerKey": "other",
+  "country": "Finland",
+  "lat": 64.233706,
+  "lng": 27.703313,
+  "mw": 12.0922,
+  "h100e": 2305.354219336614,
+  "status": "operational",
+  "year": 2022,
+  "cert": true
+ },
+ {
+  "name": "Alps Supercomputer Phase 2",
+  "owner": "ETH Domain",
+  "ownerKey": "other",
+  "country": "Switzerland",
+  "lat": 46.024451,
+  "lng": 8.960052,
+  "mw": 11.9088,
+  "h100e": 10752.000000158252,
+  "status": "operational",
+  "year": 2024,
+  "cert": true
+ },
+ {
+  "name": "Lawrence Livermore NL Sierra",
+  "owner": "US Department of Energy",
+  "ownerKey": "other",
+  "country": "United States of America",
+  "lat": 37.682018,
+  "lng": -121.768374,
+  "mw": 11.5,
+  "h100e": 1091.4603335178444,
+  "status": "operational",
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Amazon Titan training cluster",
@@ -453,7 +953,8 @@
   "mw": 11.419699199999998,
   "h100e": 4338.676099103813,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Nebius 8k Finland Phase 1",
@@ -465,7 +966,8 @@
   "mw": 11.415040000000001,
   "h100e": 8000.000000117801,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Magic G4 Google Cloud Rental",
@@ -477,11 +979,12 @@
   "mw": 11.2112,
   "h100e": 8000.000000117801,
   "status": "operational",
-  "year": null
+  "year": null,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -489,11 +992,12 @@
   "mw": 10,
   "h100e": 8000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -501,19 +1005,8 @@
   "mw": 10,
   "h100e": 4000,
   "status": "operational",
-  "year": 2023
- },
- {
-  "name": "Alps Supercomputer Phase 1",
-  "owner": "ETH Domain",
-  "ownerKey": "other",
-  "country": "Switzerland",
-  "lat": 46.024451,
-  "lng": 8.960052,
-  "mw": 9.132032,
-  "h100e": 6400.000000094244,
-  "status": "operational",
-  "year": 2024
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "AIST ABCI 3.0",
@@ -525,7 +1018,8 @@
   "mw": 8.587779200000002,
   "h100e": 6128.0000000902255,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Aramco Groq Inference Cluster",
@@ -537,7 +1031,21 @@
   "mw": 8.49023175,
   "h100e": 7475.366346749768,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": false
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 8,
+  "h100e": 4,
+  "status": "operational",
+  "year": 2010,
+  "cert": true
  },
  {
   "name": "University of Bristol Isambard-AI",
@@ -549,19 +1057,21 @@
   "mw": 7.6348272,
   "h100e": 5448.000000080245,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
-  "name": "Lawrence Livermore NL Tuolumne",
+  "name": "Lawrence Berkeley NL NERSC Perlmutter",
   "owner": "US Department of Energy",
   "ownerKey": "other",
   "country": "United States of America",
-  "lat": 37.682018,
-  "lng": -121.768374,
-  "mw": 7.1386398720000015,
-  "h100e": 4566.553613003071,
+  "lat": 37.877776,
+  "lng": -122.249533,
+  "mw": 6.9,
+  "h100e": 2260.147549300599,
   "status": "operational",
-  "year": 2024
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "NVIDIA Eos Phase 2",
@@ -573,7 +1083,8 @@
   "mw": 6.69247488,
   "h100e": 4608.000000067861,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Meta Research SuperCluster 2 (RSC-2)",
@@ -585,7 +1096,8 @@
   "mw": 6.639359999999999,
   "h100e": 2522.48610413013,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Azure OpenAI GPT-3 Cluster",
@@ -597,19 +1109,8 @@
   "mw": 6.552,
   "h100e": 631.6321374524499,
   "status": "operational",
-  "year": 2020
- },
- {
-  "name": "Mare Nostrum 5",
-  "owner": "Barcelona Supercomputing Center,EuroHPC JU",
-  "ownerKey": "other",
-  "country": "Spain",
-  "lat": 41.389806,
-  "lng": 2.115513,
-  "mw": 6.5065728,
-  "h100e": 4480.000000065971,
-  "status": "operational",
-  "year": 2023
+  "year": 2020,
+  "cert": false
  },
  {
   "name": "Together AI H100 Cluster",
@@ -621,7 +1122,8 @@
   "mw": 6.425240639999999,
   "h100e": 4424.000000065149,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Tesla A100 Cluster Phase 2",
@@ -633,23 +1135,25 @@
   "mw": 6.2689536,
   "h100e": 2320.6872157997213,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
-  "name": "Lawrence Berkeley NL NERSC Perlmutter",
-  "owner": "US Department of Energy",
+  "name": "Mare Nostrum 5",
+  "owner": "Barcelona Supercomputing Center,EuroHPC JU",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 37.877776,
-  "lng": -122.249533,
-  "mw": 6.157598719999999,
-  "h100e": 2260.147549300599,
+  "country": "Spain",
+  "lat": 41.389806,
+  "lng": 2.115513,
+  "mw": 6,
+  "h100e": 4480.000000065971,
   "status": "operational",
-  "year": 2021
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -657,7 +1161,8 @@
   "mw": 6,
   "h100e": 3000,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Yotta Shakti Cloud NM1 Phase 1",
@@ -669,7 +1174,8 @@
   "mw": 5.844500480000001,
   "h100e": 4096.0000000603195,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Sesterce H100s Phase 2",
@@ -681,7 +1187,8 @@
   "mw": 5.844500480000001,
   "h100e": 4096.0000000603195,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Microsoft Azure ND H100 v5 VM",
@@ -693,7 +1200,8 @@
   "mw": 5.8094399999999995,
   "h100e": 4000.0000000589002,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "NFDG Andromeda Phase 2",
@@ -705,7 +1213,8 @@
   "mw": 5.808624640000001,
   "h100e": 3874.1586660499647,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Sesterce Synapse Phase 2",
@@ -717,7 +1226,21 @@
   "mw": 5.7401344000000005,
   "h100e": 4096.0000000603195,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": false
+ },
+ {
+  "name": "Lawrence Livermore NL Tuolumne",
+  "owner": "US Department of Energy",
+  "ownerKey": "other",
+  "country": "United States of America",
+  "lat": 37.682018,
+  "lng": -121.768374,
+  "mw": 5.6612,
+  "h100e": 4566.553613003071,
+  "status": "operational",
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "ExxonMobil Discovery 6",
@@ -729,7 +1252,8 @@
   "mw": 5.650444800000001,
   "h100e": 4032.0000000593445,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "CoreWeave LiquidLab",
@@ -741,11 +1265,12 @@
   "mw": 5.6056,
   "h100e": 4000.0000000589002,
   "status": "operational",
-  "year": null
+  "year": null,
+  "cert": false
  },
  {
   "name": "Sweden 4k H100 Cluster",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "Sweden",
   "lat": 64.964875,
@@ -753,31 +1278,8 @@
   "mw": 5.6056,
   "h100e": 4000.0000000589002,
   "status": "operational",
-  "year": 2025
- },
- {
-  "name": "Nebius Kansas City Phase 1",
-  "owner": "Nebius AI",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.098485,
-  "lng": -94.578631,
-  "mw": 5.6056,
-  "h100e": 4000.0000000589002,
-  "status": "operational",
-  "year": 2025
- },
- {
-  "name": "Meta Research SuperCluster (RSC-1) Phase 1",
-  "owner": "Meta AI",
-  "ownerKey": "meta",
-  "country": "United States of America",
-  "lat": 37.484236,
-  "lng": -77.237219,
-  "mw": 5.1787008,
-  "h100e": 1917.089439138883,
-  "status": "operational",
-  "year": 2022
+  "year": 2025,
+  "cert": false
  },
  {
   "name": "Saudi Aramco Dammam-7",
@@ -789,19 +1291,21 @@
   "mw": 5.0975433599999995,
   "h100e": 499.7473471523815,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
-  "name": "Tesla A100 Cluster Phase 1",
-  "owner": "Tesla",
+  "name": "Nebius Kansas City Phase 1",
+  "owner": "Nebius AI",
   "ownerKey": "other",
   "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 4.9480704,
-  "h100e": 1816.1899949736808,
+  "lat": 39.098485,
+  "lng": -94.578631,
+  "mw": 5,
+  "h100e": 4000.0000000589002,
   "status": "operational",
-  "year": 2021
+  "year": 2025,
+  "cert": false
  },
  {
   "name": "Intel Stability Gaudi 2",
@@ -813,19 +1317,21 @@
   "mw": 4.89216,
   "h100e": 909.5502779315291,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
-  "name": "Eni HPC5",
-  "owner": "Eni",
+  "name": "NVIDIA Selene Phase 2",
+  "owner": "NVIDIA",
   "ownerKey": "other",
-  "country": "Italy",
-  "lat": 45.101078,
-  "lng": 8.859647,
-  "mw": 4.769856,
-  "h100e": 459.828196065384,
+  "country": "United States of America",
+  "lat": 37.35231,
+  "lng": -121.9619,
+  "mw": 4.7391,
+  "h100e": 1412.592218312862,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Microsoft Azure Meta AI Rental",
@@ -837,7 +1343,8 @@
   "mw": 4.599504,
   "h100e": 1702.6781202878253,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Vultr Chicago Cluster",
@@ -849,7 +1356,8 @@
   "mw": 4.5864,
   "h100e": 3963.971702938611,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Paper on PaLM",
@@ -861,19 +1369,34 @@
   "mw": 4.448231423999999,
   "h100e": 853.7645275517368,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
-  "name": "JAMSTEC ZettaScaler-2.2 Gyoukou",
-  "owner": "Japan Agency for Marine-Earth Science and Technology",
+  "name": "CSCS Piz Daint Phase 2",
+  "owner": "ETH Domain",
   "ownerKey": "other",
-  "country": "Japan",
-  "lat": 36.386493,
-  "lng": 138.59223,
-  "mw": 4.22604,
-  "h100e": 81.05103587789907,
+  "country": "Switzerland",
+  "lat": 46.802496,
+  "lng": 8.234392,
+  "mw": 4.3744,
+  "h100e": 54.9071248113187,
   "status": "operational",
-  "year": 2017
+  "year": 2017,
+  "cert": true
+ },
+ {
+  "name": "Eni HPC5",
+  "owner": "Eni",
+  "ownerKey": "other",
+  "country": "Italy",
+  "lat": 45.101078,
+  "lng": 8.859647,
+  "mw": 4.0337,
+  "h100e": 459.828196065384,
+  "status": "operational",
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Google MLPerf 0.7 Submission",
@@ -885,11 +1408,12 @@
   "mw": 4.0255488,
   "h100e": 254.57705912451675,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -897,19 +1421,8 @@
   "mw": 4,
   "h100e": 900,
   "status": "operational",
-  "year": 2024
- },
- {
-  "name": "NVIDIA Selene Phase 2",
-  "owner": "NVIDIA",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 37.35231,
-  "lng": -121.9619,
-  "mw": 3.913728,
-  "h100e": 1412.592218312862,
-  "status": "operational",
-  "year": 2020
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "CEA EXA1-HE Phase 3",
@@ -921,55 +1434,8 @@
   "mw": 3.7669632,
   "h100e": 2688.0000000395844,
   "status": "operational",
-  "year": 2025
- },
- {
-  "name": "Los Alamos NL Venado",
-  "owner": "US Department of Energy",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 35.881462,
-  "lng": -106.301781,
-  "mw": 3.6528128000000004,
-  "h100e": 2560.000000037698,
-  "status": "operational",
-  "year": 2024
- },
- {
-  "name": "NFDG Andromeda Phase 1",
-  "owner": "Nat Friedman and Daniel Gross",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.043555,
-  "lng": -77.487449,
-  "mw": 3.6483283199999996,
-  "h100e": 2512.000000036976,
-  "status": "operational",
-  "year": 2023
- },
- {
-  "name": "NVIDIA SATURN V Phase 2",
-  "owner": "NVIDIA",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 3.6324288,
-  "h100e": 333.5017685748941,
-  "status": "operational",
-  "year": 2018
- },
- {
-  "name": "AIST ABCI 2.0",
-  "owner": "National Institute of Advanced Industrial Science and Technology (AIST)",
-  "ownerKey": "other",
-  "country": "Japan",
-  "lat": 35.68882,
-  "lng": 139.692526,
-  "mw": 3.62858496,
-  "h100e": 302.69833249561333,
-  "status": "operational",
-  "year": 2021
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Tesla Training Cluster",
@@ -981,19 +1447,8 @@
   "mw": 3.46364928,
   "h100e": 1271.3329964815769,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "CSCS Piz Daint Phase 2",
-  "owner": "ETH Domain",
-  "ownerKey": "other",
-  "country": "Switzerland",
-  "lat": 46.802496,
-  "lng": 8.234392,
-  "mw": 3.3479628000000003,
-  "h100e": 54.9071248113187,
-  "status": "operational",
-  "year": 2017
+  "year": 2021,
+  "cert": false
  },
  {
   "name": "JUWELS-Booster",
@@ -1002,14 +1457,15 @@
   "country": "Germany",
   "lat": 50.921734,
   "lng": 6.358342,
-  "mw": 3.2707584,
+  "mw": 3.1598,
   "h100e": 1180.523496732893,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -1017,11 +1473,12 @@
   "mw": 3,
   "h100e": 2000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -1029,11 +1486,12 @@
   "mw": 3,
   "h100e": 1000,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -1041,31 +1499,8 @@
   "mw": 3,
   "h100e": 600,
   "status": "operational",
-  "year": 2019
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": 3,
-  "h100e": 4,
-  "status": "operational",
-  "year": 2010
- },
- {
-  "name": "AIST ABCI 1.0",
-  "owner": "National Institute of Advanced Industrial Science and Technology (AIST)",
-  "ownerKey": "other",
-  "country": "Japan",
-  "lat": 35.68882,
-  "lng": 139.692526,
-  "mw": 2.99400192,
-  "h100e": 274.8863062193055,
-  "status": "operational",
-  "year": 2018
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Google TPU v4 Pod",
@@ -1077,7 +1512,21 @@
   "mw": 2.990833664,
   "h100e": 569.1763517011531,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
+ },
+ {
+  "name": "Novo Nordisk Gefion",
+  "owner": "Novo Nordisk Foundation,Danish Centre for AI Innovation,Export and Investment Fund of Denmark",
+  "ownerKey": "other",
+  "country": "Denmark",
+  "lat": 55.963398,
+  "lng": 10.046297,
+  "mw": 2.9307,
+  "h100e": 3031.8342597717624,
+  "status": "operational",
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Northern Data Group Taiga Cloud NO1 Island 2",
@@ -1089,19 +1538,8 @@
   "mw": 2.9222502400000003,
   "h100e": 2048.0000000301593,
   "status": "operational",
-  "year": 2024
- },
- {
-  "name": "Sesterce Synapse Phase 1",
-  "owner": "Sesterce",
-  "ownerKey": "other",
-  "country": "France",
-  "lat": 48.853495,
-  "lng": 2.348392,
-  "mw": 2.9222502400000003,
-  "h100e": 2048.0000000301593,
-  "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "NVIDIA Israel-1 Phase 2",
@@ -1113,7 +1551,8 @@
   "mw": 2.9222502400000003,
   "h100e": 2048.0000000301593,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Northern Data Group Taiga Cloud NO1 Island 1",
@@ -1125,7 +1564,8 @@
   "mw": 2.9222502400000003,
   "h100e": 2048.0000000301593,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Northern Data Group Njored Taiga Cloud Island 5",
@@ -1137,7 +1577,8 @@
   "mw": 2.9222502400000003,
   "h100e": 2048.0000000301593,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "SoftBank CHIE-2",
@@ -1149,7 +1590,8 @@
   "mw": 2.9108352,
   "h100e": 2040.0000000300324,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "SoftBank CHIE-3",
@@ -1161,7 +1603,34 @@
   "mw": 2.9108352,
   "h100e": 2040.0000000300324,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
+ },
+ {
+  "name": "US Government Supercomputer 2",
+  "owner": "United States Government",
+  "ownerKey": "other",
+  "country": "United States of America",
+  "lat": 39.381266,
+  "lng": -97.922211,
+  "mw": 2.8859,
+  "h100e": 10.607054067867173,
+  "status": "operational",
+  "year": 2015,
+  "cert": true
+ },
+ {
+  "name": "US Government Supercomputer 1",
+  "owner": "United States Government",
+  "ownerKey": "other",
+  "country": "United States of America",
+  "lat": 39.381266,
+  "lng": -97.922211,
+  "mw": 2.8859,
+  "h100e": 10.607054067867173,
+  "status": "operational",
+  "year": 2014,
+  "cert": true
  },
  {
   "name": "Sakura's H100s Phase 1",
@@ -1173,7 +1642,8 @@
   "mw": 2.87659008,
   "h100e": 2016.0000000296884,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "AIST ABCI-Q",
@@ -1185,7 +1655,8 @@
   "mw": 2.8700672000000003,
   "h100e": 2048.0000000301593,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Horizon Compute Baobab Phase 2",
@@ -1197,11 +1668,12 @@
   "mw": 2.8700672000000003,
   "h100e": 2048.0000000301593,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": false
  },
  {
   "name": "Quebec 2k H100 Cluster",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "Canada",
   "lat": 46.812189,
@@ -1209,19 +1681,34 @@
   "mw": 2.8028,
   "h100e": 2000.0000000294335,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": false
  },
  {
-  "name": "CEA EXA1-HE Phase 2",
-  "owner": "French Alternative Energies and Atomic Energy Commission (CEA)",
+  "name": "Los Alamos NL Venado",
+  "owner": "US Department of Energy",
   "ownerKey": "other",
-  "country": "France",
-  "lat": 47.824905,
-  "lng": 2.618787,
-  "mw": 2.72248704,
-  "h100e": 1908.0000000280777,
+  "country": "United States of America",
+  "lat": 35.881462,
+  "lng": -106.301781,
+  "mw": 2.7775,
+  "h100e": 2560.000000037698,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
+ },
+ {
+  "name": "GSIC TSUBAME 2.5",
+  "owner": "Tokyo Institute of Technology",
+  "ownerKey": "other",
+  "country": "Japan",
+  "lat": 34.662514,
+  "lng": 133.924262,
+  "mw": 2.6928,
+  "h100e": 8.398908539790144,
+  "status": "operational",
+  "year": 2014,
+  "cert": true
  },
  {
   "name": "Google TensorFlow Research Cloud",
@@ -1233,7 +1720,8 @@
   "mw": 2.692644864,
   "h100e": 95.20768064819367,
   "status": "operational",
-  "year": 2017
+  "year": 2017,
+  "cert": false
  },
  {
   "name": "Cineca Marconi-100",
@@ -1242,10 +1730,50 @@
   "country": "Italy",
   "lat": 44.495735,
   "lng": 11.344672,
-  "mw": 2.5893504,
+  "mw": 2.6436,
   "h100e": 249.62102072121044,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
+ },
+ {
+  "name": "JAMSTEC ZettaScaler-2.2 Gyoukou",
+  "owner": "Japan Agency for Marine-Earth Science and Technology",
+  "ownerKey": "other",
+  "country": "Japan",
+  "lat": 36.386493,
+  "lng": 138.59223,
+  "mw": 2.5996,
+  "h100e": 81.05103587789907,
+  "status": "operational",
+  "year": 2017,
+  "cert": false
+ },
+ {
+  "name": "MIT LLSC TX-GAIA",
+  "owner": "US Department of Defense",
+  "ownerKey": "other",
+  "country": "United States of America",
+  "lat": 42.207101,
+  "lng": -72.607583,
+  "mw": 2.5719,
+  "h100e": 56.59423951574004,
+  "status": "operational",
+  "year": 2019,
+  "cert": true
+ },
+ {
+  "name": "TotalEnergies Pangea III",
+  "owner": "TotalEnergies",
+  "ownerKey": "other",
+  "country": "France",
+  "lat": 43.317339,
+  "lng": -0.319579,
+  "mw": 2.4892,
+  "h100e": 213.74431531390957,
+  "status": "operational",
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Jean Zay Supercomputer Phase 4",
@@ -1257,31 +1785,8 @@
   "mw": 2.41672704,
   "h100e": 1587.1692774362077,
   "status": "operational",
-  "year": 2024
- },
- {
-  "name": "Sandia NL El Dorado",
-  "owner": "US Department of Energy",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 35.088192,
-  "lng": -106.650945,
-  "mw": 2.3547596800000004,
-  "h100e": 1506.3284487336496,
-  "status": "operational",
-  "year": 2024
- },
- {
-  "name": "TotalEnergies Pangea III",
-  "owner": "TotalEnergies",
-  "ownerKey": "other",
-  "country": "France",
-  "lat": 43.317339,
-  "lng": -0.319579,
-  "mw": 2.25415008,
-  "h100e": 213.74431531390957,
-  "status": "operational",
-  "year": 2019
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Nebius ISEG",
@@ -1290,22 +1795,11 @@
   "country": "Finland",
   "lat": 60.629522,
   "lng": 25.26336,
-  "mw": 2.2075872,
+  "mw": 2.246,
   "h100e": 1520.0000000223818,
   "status": "operational",
-  "year": 2023
- },
- {
-  "name": "Novo Nordisk Gefion",
-  "owner": "Novo Nordisk Foundation,Danish Centre for AI Innovation,Export and Investment Fund of Denmark",
-  "ownerKey": "other",
-  "country": "Denmark",
-  "lat": 55.963398,
-  "lng": 10.046297,
-  "mw": 2.18027264,
-  "h100e": 3031.8342597717624,
-  "status": "operational",
-  "year": 2024
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Microsoft Ares/Maia",
@@ -1317,7 +1811,8 @@
   "mw": 2.1245952,
   "h100e": 827.892875201677,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Jean Zay Supercomputer Phase 3",
@@ -1329,7 +1824,8 @@
   "mw": 2.07659088,
   "h100e": 131.1692774147658,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Lawrence Livermore NL Lassen Phase 2",
@@ -1341,31 +1837,34 @@
   "mw": 2.0756736,
   "h100e": 200.10106114493658,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
-  "name": "US Government Supercomputer 2",
-  "owner": "United States Government",
+  "name": "CEA EXA1-HE Phase 2",
+  "owner": "French Alternative Energies and Atomic Energy Commission (CEA)",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 2.0404384,
-  "h100e": 10.607054067867173,
+  "country": "France",
+  "lat": 47.824905,
+  "lng": 2.618787,
+  "mw": 2.0177,
+  "h100e": 1908.0000000280777,
   "status": "operational",
-  "year": 2015
+  "year": 2024,
+  "cert": true
  },
  {
-  "name": "US Government Supercomputer 1",
-  "owner": "United States Government",
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 2.0404384,
-  "h100e": 10.607054067867173,
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 2,
+  "h100e": 1,
   "status": "operational",
-  "year": 2014
+  "year": 2011,
+  "cert": true
  },
  {
   "name": "Microsoft Explorer-WUS3",
@@ -1377,19 +1876,8 @@
   "mw": 1.9918079999999998,
   "h100e": 371.58160687762984,
   "status": "operational",
-  "year": 2023
- },
- {
-  "name": "GSIC TSUBAME 2.5",
-  "owner": "Tokyo Institute of Technology",
-  "ownerKey": "other",
-  "country": "Japan",
-  "lat": 34.662514,
-  "lng": 133.924262,
-  "mw": 1.9872652800000004,
-  "h100e": 8.398908539790144,
-  "status": "operational",
-  "year": 2014
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Eni HPC4 Phase 2",
@@ -1401,19 +1889,8 @@
   "mw": 1.98653,
   "h100e": 78.82769075406587,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "NVIDIA Selene Phase 1",
-  "owner": "NVIDIA",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 37.35231,
-  "lng": -121.9619,
-  "mw": 1.956864,
-  "h100e": 706.2961091564309,
-  "status": "operational",
-  "year": 2020
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Argonne NL Polaris",
@@ -1425,19 +1902,8 @@
   "mw": 1.9242495999999998,
   "h100e": 706.2961091564309,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "Lawrence Livermore NL Lassen Phase 1",
-  "owner": "US Department of Energy",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 37.680665,
-  "lng": -121.7099,
-  "mw": 1.8822585600000001,
-  "h100e": 172.8145528069905,
-  "status": "operational",
-  "year": 2018
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "NAVER Corp Sejong",
@@ -1449,19 +1915,21 @@
   "mw": 1.8590208,
   "h100e": 706.2961091564309,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
-  "name": "Eni HPC4 Phase 1",
-  "owner": "Eni",
+  "name": "Sandia NL El Dorado",
+  "owner": "US Department of Energy",
   "ownerKey": "other",
-  "country": "Italy",
-  "lat": 45.101078,
-  "lng": 8.859647,
-  "mw": 1.817361,
-  "h100e": 29.954017180835173,
+  "country": "United States of America",
+  "lat": 35.088192,
+  "lng": -106.650945,
+  "mw": 1.8556,
+  "h100e": 1506.3284487336496,
   "status": "operational",
-  "year": 2018
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Core42 SuperPOD",
@@ -1473,7 +1941,8 @@
   "mw": 1.81499136,
   "h100e": 1272.0000000187285,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Microsoft Azure Voyager-EUS2",
@@ -1485,31 +1954,34 @@
   "mw": 1.81429248,
   "h100e": 665.9363314903499,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
-  "name": "CSCS Piz Daint Phase 1",
-  "owner": "ETH Domain",
+  "name": "Petrobras Pegasus (Pégaso)",
+  "owner": "Petrobras",
   "ownerKey": "other",
-  "country": "Switzerland",
-  "lat": 46.802496,
-  "lng": 8.234392,
-  "mw": 1.811992,
-  "h100e": 29.263264275317198,
+  "country": "Brazil",
+  "lat": -22.909534,
+  "lng": -43.209934,
+  "mw": 1.8039,
+  "h100e": 635.6664982407935,
   "status": "operational",
-  "year": 2016
+  "year": 2022,
+  "cert": true
  },
  {
-  "name": "Jean Zay Supercomputer Phase 2",
-  "owner": "GENCI",
+  "name": "Ubilink.AI Supercomputer",
+  "owner": "Ubilink AI",
   "ownerKey": "other",
-  "country": "France",
-  "lat": 48.706817,
-  "lng": 2.175654,
-  "mw": 1.7664191999999999,
-  "h100e": 170.2880242571809,
+  "country": "Taiwan",
+  "lat": 24.97428,
+  "lng": 121.44137,
+  "mw": 1.7823,
+  "h100e": 1024.0000000150794,
   "status": "operational",
-  "year": 2020
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "ND A100 v4",
@@ -1521,31 +1993,8 @@
   "mw": 1.71808,
   "h100e": 630.6215260325272,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "Petrobras Pegasus (Pégaso)",
-  "owner": "Petrobras",
-  "ownerKey": "other",
-  "country": "Brazil",
-  "lat": -22.909534,
-  "lng": -43.209934,
-  "mw": 1.7171481599999998,
-  "h100e": 635.6664982407935,
-  "status": "operational",
-  "year": 2022
- },
- {
-  "name": "ExxonMobil Discovery 5",
-  "owner": "ExxonMobil",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 30.103242,
-  "lng": -95.446152,
-  "mw": 1.70352,
-  "h100e": 630.6215260325272,
-  "status": "operational",
-  "year": 2022
+  "year": 2021,
+  "cert": false
  },
  {
   "name": "Softbank SuperPOD",
@@ -1557,7 +2006,47 @@
   "mw": 1.6996761599999999,
   "h100e": 645.756442657314,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
+ },
+ {
+  "name": "ExxonMobil Discovery 5",
+  "owner": "ExxonMobil",
+  "ownerKey": "other",
+  "country": "United States of America",
+  "lat": 30.103242,
+  "lng": -95.446152,
+  "mw": 1.6834,
+  "h100e": 630.6215260325272,
+  "status": "operational",
+  "year": 2022,
+  "cert": true
+ },
+ {
+  "name": "Petrobras Dragão",
+  "owner": "Petrobras",
+  "ownerKey": "other",
+  "country": "Brazil",
+  "lat": -22.909534,
+  "lng": -43.209934,
+  "mw": 1.661,
+  "h100e": 137.44315310965385,
+  "status": "operational",
+  "year": 2021,
+  "cert": true
+ },
+ {
+  "name": "GENCI Adastra",
+  "owner": "GENCI",
+  "ownerKey": "other",
+  "country": "France",
+  "lat": 43.610073,
+  "lng": 3.87727,
+  "mw": 1.6092,
+  "h100e": 261.6553815096622,
+  "status": "operational",
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "JCAHPC Miyabi",
@@ -1569,7 +2058,8 @@
   "mw": 1.5695680000000003,
   "h100e": 1120.0000000164925,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "TensorWave MI300X Cluster 1 Phase 1",
@@ -1581,7 +2071,8 @@
   "mw": 1.5288000000000002,
   "h100e": 1321.3239009795366,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "GSIC TSUBAME 3.0",
@@ -1590,10 +2081,11 @@
   "country": "Japan",
   "lat": 34.662514,
   "lng": 133.924262,
-  "mw": 1.5185570400000001,
+  "mw": 1.525,
   "h100e": 23.117897928587006,
   "status": "operational",
-  "year": 2017
+  "year": 2017,
+  "cert": true
  },
  {
   "name": "Tesla Auto-Labeling Cluster",
@@ -1605,31 +2097,21 @@
   "mw": 1.5050380799999998,
   "h100e": 552.4244568044976,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": false
  },
  {
-  "name": "NVIDIA Eos Phase 1",
-  "owner": "NVIDIA",
+  "name": "Taiwania 2",
+  "owner": "National Applied Research Laboratories Taiwan",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 1.48721664,
-  "h100e": 1024.0000000150794,
+  "country": "Taiwan",
+  "lat": 24.806633,
+  "lng": 120.968683,
+  "mw": 1.4999,
+  "h100e": 127.33703891041411,
   "status": "operational",
-  "year": 2023
- },
- {
-  "name": "NVIDIA Israel-1 Phase 1",
-  "owner": "NVIDIA",
-  "ownerKey": "other",
-  "country": "Israel",
-  "lat": 31.847261,
-  "lng": 34.841999,
-  "mw": 1.48721664,
-  "h100e": 1024.0000000150794,
-  "status": "operational",
-  "year": 2023
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Scaleway Nabuchodonosor",
@@ -1641,19 +2123,8 @@
   "mw": 1.4755977599999999,
   "h100e": 1016.0000000149575,
   "status": "operational",
-  "year": 2023
- },
- {
-  "name": "Ubilink.AI Supercomputer",
-  "owner": "Ubilink AI",
-  "ownerKey": "other",
-  "country": "Taiwan",
-  "lat": 24.97428,
-  "lng": 121.44137,
-  "mw": 1.4611251200000002,
-  "h100e": 1024.0000000150794,
-  "status": "operational",
-  "year": 2024
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "LeptonAI H100 Cluster",
@@ -1665,7 +2136,8 @@
   "mw": 1.4611251200000002,
   "h100e": 1024.0000000150794,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "IBM Blue Vela",
@@ -1677,7 +2149,8 @@
   "mw": 1.4611251200000002,
   "h100e": 1024.0000000150794,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "SIAM AI HGX",
@@ -1689,19 +2162,8 @@
   "mw": 1.4611251200000002,
   "h100e": 1024.0000000150794,
   "status": "operational",
-  "year": 2024
- },
- {
-  "name": "Horizon Compute Baobab Phase 1",
-  "owner": "Horizon Compute",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 1.4611251200000002,
-  "h100e": 1024.0000000150794,
-  "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "GreenNode Bangkok Cluster",
@@ -1713,7 +2175,8 @@
   "mw": 1.4611251200000002,
   "h100e": 1024.0000000150794,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Sustainable Metal Cloud Singapore Phase 1",
@@ -1725,7 +2188,8 @@
   "mw": 1.4611251200000002,
   "h100e": 1024.0000000150794,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Denvr Dataworks H100",
@@ -1737,7 +2201,8 @@
   "mw": 1.4611251200000002,
   "h100e": 1024.0000000150794,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "NHN Cloud's National AI Data Center",
@@ -1749,19 +2214,8 @@
   "mw": 1.4523599999999999,
   "h100e": 1000.0000000147247,
   "status": "operational",
-  "year": 2023
- },
- {
-  "name": "GENCI Adastra",
-  "owner": "GENCI",
-  "ownerKey": "other",
-  "country": "France",
-  "lat": 43.610073,
-  "lng": 3.87727,
-  "mw": 1.4394744,
-  "h100e": 261.6553815096622,
-  "status": "operational",
-  "year": 2022
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Hut 8 H100 Cluster",
@@ -1773,7 +2227,8 @@
   "mw": 1.4268800000000001,
   "h100e": 1000.0000000147247,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Voltage Park Texas Phase 1",
@@ -1785,7 +2240,8 @@
   "mw": 1.4268800000000001,
   "h100e": 1000.0000000147247,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Eni HPC2",
@@ -1797,43 +2253,8 @@
   "mw": 1.41141,
   "h100e": 5.965133906100993,
   "status": "operational",
-  "year": 2014
- },
- {
-  "name": "Petrobras Dragão",
-  "owner": "Petrobras",
-  "ownerKey": "other",
-  "country": "Brazil",
-  "lat": -22.909534,
-  "lng": -43.209934,
-  "mw": 1.40195328,
-  "h100e": 137.44315310965385,
-  "status": "operational",
-  "year": 2021
- },
- {
-  "name": "Taiwania 2",
-  "owner": "National Applied Research Laboratories Taiwan",
-  "ownerKey": "other",
-  "country": "Taiwan",
-  "lat": 24.806633,
-  "lng": 120.968683,
-  "mw": 1.38692736,
-  "h100e": 127.33703891041411,
-  "status": "operational",
-  "year": 2018
- },
- {
-  "name": "TSUBAME4.0",
-  "owner": "Tokyo Institute of Technology",
-  "ownerKey": "other",
-  "country": "Japan",
-  "lat": 35.518594,
-  "lng": 139.529816,
-  "mw": 1.3698048,
-  "h100e": 960.0000000141367,
-  "status": "operational",
-  "year": 2024
+  "year": 2014,
+  "cert": true
  },
  {
   "name": "Yandex Chervonenkis",
@@ -1845,7 +2266,8 @@
   "mw": 1.3675916799999999,
   "h100e": 501.9747347218914,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "AWS Fast BERT Training",
@@ -1857,11 +2279,25 @@
   "mw": 1.36421376,
   "h100e": 129.35826175026193,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
+ },
+ {
+  "name": "TSUBAME4.0",
+  "owner": "Tokyo Institute of Technology",
+  "ownerKey": "other",
+  "country": "Japan",
+  "lat": 35.518594,
+  "lng": 139.529816,
+  "mw": 1.3638,
+  "h100e": 960.0000000141367,
+  "status": "operational",
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Energy Company DD",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "United States of America",
   "lat": 39.381266,
@@ -1869,7 +2305,21 @@
   "mw": 1.23596928,
   "h100e": 7.0953653361327715,
   "status": "operational",
-  "year": 2016
+  "year": 2016,
+  "cert": true
+ },
+ {
+  "name": "G42 Artemis",
+  "owner": "G42",
+  "ownerKey": "other",
+  "country": "United Arab Emirates",
+  "lat": 24.453524,
+  "lng": 54.377438,
+  "mw": 1.2255,
+  "h100e": 81.85952501383768,
+  "status": "operational",
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Iris Energy Prince George cluster",
@@ -1881,7 +2331,8 @@
   "mw": 1.1643340800000002,
   "h100e": 816.0000000120199,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Microsoft Azure Pioneer-WUS2",
@@ -1893,7 +2344,8 @@
   "mw": 1.12706048,
   "h100e": 413.6877210773397,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Microsoft Azure Pioneer-WEU",
@@ -1905,7 +2357,8 @@
   "mw": 1.12706048,
   "h100e": 413.6877210773397,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Microsoft Azure Pioneer-EUS",
@@ -1917,7 +2370,8 @@
   "mw": 1.12706048,
   "h100e": 413.6877210773397,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Microsoft Azure Pioneer-SCUS",
@@ -1929,23 +2383,25 @@
   "mw": 1.12706048,
   "h100e": 413.6877210773397,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
-  "name": "RPI AiMOS",
-  "owner": "Rensselaer Polytechnic Institute",
+  "name": "University of Florida HiPerGator 3.0 Superpod",
+  "owner": "University of Florida",
   "ownerKey": "other",
   "country": "United States of America",
-  "lat": 42.731153,
-  "lng": -73.68903,
-  "mw": 1.0071734399999999,
-  "h100e": 95.5027791828106,
+  "lat": 29.649763,
+  "lng": -82.343513,
+  "mw": 1.0261,
+  "h100e": 353.1480545782183,
   "status": "operational",
-  "year": 2019
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -1953,11 +2409,12 @@
   "mw": 1,
   "h100e": 500,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -1965,11 +2422,12 @@
   "mw": 1,
   "h100e": 400,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -1977,11 +2435,12 @@
   "mw": 1,
   "h100e": 400,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -1989,11 +2448,12 @@
   "mw": 1,
   "h100e": 100,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2001,11 +2461,12 @@
   "mw": 1,
   "h100e": 90,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2013,11 +2474,12 @@
   "mw": 1,
   "h100e": 90,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2025,11 +2487,38 @@
   "mw": 1,
   "h100e": 90,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 1,
+  "h100e": 30,
+  "status": "operational",
+  "year": 2017,
+  "cert": false
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 1,
+  "h100e": 30,
+  "status": "operational",
+  "year": 2017,
+  "cert": false
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2037,11 +2526,12 @@
   "mw": 1,
   "h100e": 20,
   "status": "operational",
-  "year": 2012
+  "year": 2012,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2049,7 +2539,21 @@
   "mw": 1,
   "h100e": 6,
   "status": "operational",
-  "year": 2016
+  "year": 2016,
+  "cert": false
+ },
+ {
+  "name": "Petrobras Atlas",
+  "owner": "Petrobras",
+  "ownerKey": "other",
+  "country": "Brazil",
+  "lat": -22.909534,
+  "lng": -43.209934,
+  "mw": 0.9789,
+  "h100e": 68.72157655482691,
+  "status": "operational",
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Naver DGX Superpod",
@@ -2061,19 +2565,21 @@
   "mw": 0.978432,
   "h100e": 353.1480545782183,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
-  "name": "University of Florida HiPerGator 3.0 Superpod",
-  "owner": "University of Florida",
+  "name": "Petrobras Gaia",
+  "owner": "Petrobras",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 29.649763,
-  "lng": -82.343513,
-  "mw": 0.9621247999999999,
-  "h100e": 353.1480545782183,
+  "country": "Brazil",
+  "lat": -22.909534,
+  "lng": -43.209934,
+  "mw": 0.9767,
+  "h100e": 221.97877716344988,
   "status": "operational",
-  "year": 2021
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Yandex Lyapunov",
@@ -2085,7 +2591,8 @@
   "mw": 0.94150784,
   "h100e": 345.5805962658242,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Yandex Galushkin",
@@ -2097,19 +2604,21 @@
   "mw": 0.9346355199999999,
   "h100e": 343.05811016169656,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "name": "RPI AiMOS",
+  "owner": "Rensselaer Polytechnic Institute",
   "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": 0.9,
-  "h100e": 1,
+  "country": "United States of America",
+  "lat": 42.731153,
+  "lng": -73.68903,
+  "mw": 0.9288,
+  "h100e": 95.5027791828106,
   "status": "operational",
-  "year": 2011
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "NVIDIA Taipei-1",
@@ -2121,7 +2630,8 @@
   "mw": 0.8871116800000001,
   "h100e": 558.8276907611325,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Paper on AlphaZero",
@@ -2133,19 +2643,8 @@
   "mw": 0.880425,
   "h100e": 232.4406265825018,
   "status": "operational",
-  "year": 2017
- },
- {
-  "name": "G42 Artemis",
-  "owner": "G42",
-  "ownerKey": "other",
-  "country": "United Arab Emirates",
-  "lat": 24.453524,
-  "lng": 54.377438,
-  "mw": 0.86329152,
-  "h100e": 81.85952501383768,
-  "status": "operational",
-  "year": 2019
+  "year": 2017,
+  "cert": false
  },
  {
   "name": "Moscow State University Lomonosov 2",
@@ -2157,7 +2656,21 @@
   "mw": 0.8598378880000002,
   "h100e": 3.7532652855529696,
   "status": "operational",
-  "year": 2016
+  "year": 2016,
+  "cert": true
+ },
+ {
+  "name": "Pawsey Supercomputing Centre Setonix",
+  "owner": "Pawsey Supercomputing Centre",
+  "ownerKey": "amazon",
+  "country": "Australia",
+  "lat": -31.992752,
+  "lng": 115.883558,
+  "mw": 0.8323,
+  "h100e": 148.63264275105197,
+  "status": "operational",
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Microsoft Azure Immunity Bio",
@@ -2169,23 +2682,12 @@
   "mw": 0.819,
   "h100e": 78.95401718155685,
   "status": "operational",
-  "year": 2020
- },
- {
-  "name": "Pawsey Supercomputing Centre Setonix",
-  "owner": "Pawsey Supercomputing Centre",
-  "ownerKey": "amazon",
-  "country": "Australia",
-  "lat": -31.992752,
-  "lng": 115.883558,
-  "mw": 0.8176896,
-  "h100e": 148.63264275105197,
-  "status": "operational",
-  "year": 2022
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2193,7 +2695,8 @@
   "mw": 0.8,
   "h100e": 80,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "SberCloud Christofari",
@@ -2205,19 +2708,8 @@
   "mw": 0.799344,
   "h100e": 75.79585649429404,
   "status": "operational",
-  "year": 2019
- },
- {
-  "name": "Lawrence Livermore NL El Capitan Phase 1",
-  "owner": "US Department of Energy",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 37.682018,
-  "lng": -121.768374,
-  "mw": 0.793182208,
-  "h100e": 507.3948458892298,
-  "status": "operational",
-  "year": 2024
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Lawrence Livermore NL RZAdams",
@@ -2229,7 +2721,8 @@
   "mw": 0.793182208,
   "h100e": 507.3948458892298,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "DeepL Mercury",
@@ -2241,7 +2734,8 @@
   "mw": 0.79008384,
   "h100e": 544.0000000080087,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "NEC Corp Japan Supercomputer",
@@ -2253,7 +2747,8 @@
   "mw": 0.7701657599999999,
   "h100e": 292.60838807909363,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "SURF Snellius Phase 3",
@@ -2265,7 +2760,8 @@
   "mw": 0.7370854400000001,
   "h100e": 442.80949975386926,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Ahrefs Yep1",
@@ -2277,7 +2773,8 @@
   "mw": 0.71914752,
   "h100e": 504.00000000741784,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Recursion BioHive-2",
@@ -2289,19 +2786,8 @@
   "mw": 0.71914752,
   "h100e": 504.00000000741784,
   "status": "operational",
-  "year": 2024
- },
- {
-  "name": "Petrobras Atlas",
-  "owner": "Petrobras",
-  "ownerKey": "other",
-  "country": "Brazil",
-  "lat": -22.909534,
-  "lng": -43.209934,
-  "mw": 0.7128576,
-  "h100e": 68.72157655482691,
-  "status": "operational",
-  "year": 2020
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Japan Atomic Energy Agency and Quantum and Radiological Science and Technology HPE SGI8600",
@@ -2313,11 +2799,12 @@
   "mw": 0.7128576,
   "h100e": 68.72157655482691,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2325,19 +2812,21 @@
   "mw": 0.7,
   "h100e": 1000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
-  "name": "Jean Zay Supercomputer Phase 1",
-  "owner": "GENCI",
+  "name": "Petrobras Fênix Phase 2",
+  "owner": "Petrobras",
   "ownerKey": "other",
-  "country": "France",
-  "lat": 48.706817,
-  "lng": 2.175654,
-  "mw": 0.69542928,
-  "h100e": 65.94239515003603,
+  "country": "Brazil",
+  "lat": -22.909534,
+  "lng": -43.209934,
+  "mw": 0.6981,
+  "h100e": 45.47751389657645,
   "status": "operational",
-  "year": 2019
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "EuroHPC MeluXina",
@@ -2346,10 +2835,11 @@
   "country": "Luxembourg",
   "lat": 49.786299,
   "lng": 6.090425,
-  "mw": 0.687232,
+  "mw": 0.6873,
   "h100e": 252.24861041301094,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Preferred Networks MN-2",
@@ -2361,7 +2851,8 @@
   "mw": 0.68210688,
   "h100e": 64.67913087513097,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "SberCloud Christofari Neo",
@@ -2373,7 +2864,8 @@
   "mw": 0.6803596799999999,
   "h100e": 249.7261243088812,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Princeton Della Phase 2",
@@ -2385,19 +2877,34 @@
   "mw": 0.6800102400000001,
   "h100e": 395.6382011174993,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
-  "name": "JAMSTEC ZettaScaler-2.0 Gyoukou",
-  "owner": "Japan Agency for Marine-Earth Science and Technology",
+  "name": "FZJ JURECA",
+  "owner": "Julich Supercomputing Center",
   "ownerKey": "other",
-  "country": "Japan",
-  "lat": 36.386493,
-  "lng": 138.59223,
-  "mw": 0.6761664000000001,
-  "h100e": 12.968165740463752,
+  "country": "Germany",
+  "lat": 50.921734,
+  "lng": 6.358342,
+  "mw": 0.6765,
+  "h100e": 242.15866599649075,
   "status": "operational",
-  "year": 2017
+  "year": 2021,
+  "cert": true
+ },
+ {
+  "name": "Meta 2017 P100 Cluster",
+  "owner": "Meta AI",
+  "ownerKey": "meta",
+  "country": "United States of America",
+  "lat": 39.381266,
+  "lng": -97.922211,
+  "mw": 0.6729,
+  "h100e": 9.373623042078371,
+  "status": "operational",
+  "year": 2017,
+  "cert": true
  },
  {
   "name": "University of Illinois NCSA Delta",
@@ -2409,31 +2916,8 @@
   "mw": 0.6643728,
   "h100e": 211.84436584445376,
   "status": "operational",
-  "year": 2022
- },
- {
-  "name": "AGH Cyfronet Helios",
-  "owner": "AGH University of Krakow",
-  "ownerKey": "other",
-  "country": "Poland",
-  "lat": 50.068984,
-  "lng": 19.909203,
-  "mw": 0.66207232,
-  "h100e": 464.00000000683394,
-  "status": "operational",
-  "year": 2024
- },
- {
-  "name": "FZJ JURECA",
-  "owner": "Julich Supercomputing Center",
-  "ownerKey": "other",
-  "country": "Germany",
-  "lat": 50.921734,
-  "lng": 6.358342,
-  "mw": 0.65974272,
-  "h100e": 242.15866599649075,
-  "status": "operational",
-  "year": 2021
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Max-Planck-Gesellschaft Raven",
@@ -2442,10 +2926,11 @@
   "country": "Germany",
   "lat": 48.261899,
   "lng": 11.671739,
-  "mw": 0.65974272,
+  "mw": 0.664,
   "h100e": 242.15866599649075,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "CSIRO Virga",
@@ -2457,7 +2942,8 @@
   "mw": 0.6392422400000001,
   "h100e": 448.00000000659713,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Karlsruher Institut für Technologie HoreKa",
@@ -2466,10 +2952,11 @@
   "country": "Germany",
   "lat": 49.009716,
   "lng": 8.401216,
-  "mw": 0.6356896,
+  "mw": 0.6319,
   "h100e": 233.32996463203506,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "NSC Berzelius Phase 2",
@@ -2481,11 +2968,12 @@
   "mw": 0.62409984,
   "h100e": 237.1136937882306,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "Hong Kong",
   "lat": 22.279356,
@@ -2493,11 +2981,12 @@
   "mw": 0.6,
   "h100e": 400,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2505,11 +2994,12 @@
   "mw": 0.6,
   "h100e": 400,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2517,11 +3007,12 @@
   "mw": 0.6,
   "h100e": 200,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2529,31 +3020,8 @@
   "mw": 0.6,
   "h100e": 200,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "NSTDA Supercomputer Center (ThaiSC) LANTA",
-  "owner": "National Science and Technology Development Agency (NSTDA)",
-  "ownerKey": "other",
-  "country": "Thailand",
-  "lat": 14.020396,
-  "lng": 100.534043,
-  "mw": 0.5996390399999999,
-  "h100e": 221.97877716344988,
-  "status": "operational",
-  "year": 2022
- },
- {
-  "name": "MIT LLSC TX-GAIA",
-  "owner": "US Department of Defense",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 42.207101,
-  "lng": -72.607583,
-  "mw": 0.5968435200000001,
-  "h100e": 56.59423951574004,
-  "status": "operational",
-  "year": 2019
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Saudi Aramco Tuwaiq-1",
@@ -2565,43 +3033,8 @@
   "mw": 0.5935820800000001,
   "h100e": 416.00000000612255,
   "status": "operational",
-  "year": 2024
- },
- {
-  "name": "NVIDIA SATURN V Phase 1",
-  "owner": "NVIDIA",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 0.5912816,
-  "h100e": 9.373623042078371,
-  "status": "operational",
-  "year": 2016
- },
- {
-  "name": "Petrobras Gaia",
-  "owner": "Petrobras",
-  "ownerKey": "other",
-  "country": "Brazil",
-  "lat": -22.909534,
-  "lng": -43.209934,
-  "mw": 0.58426368,
-  "h100e": 221.97877716344988,
-  "status": "operational",
-  "year": 2023
- },
- {
-  "name": "Meta 2017 P100 Cluster",
-  "owner": "Meta AI",
-  "ownerKey": "meta",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 0.5822544000000001,
-  "h100e": 9.373623042078371,
-  "status": "operational",
-  "year": 2017
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Nagoya University Flow Type II (Furo)",
@@ -2613,11 +3046,25 @@
   "mw": 0.5791968,
   "h100e": 55.83628095079686,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
+ },
+ {
+  "name": "Simon Fraser University/Compute Canada Cedar",
+  "owner": "Compute Canada",
+  "ownerKey": "other",
+  "country": "Canada",
+  "lat": 49.276726,
+  "lng": -122.914232,
+  "mw": 0.5552,
+  "h100e": 48.509348156348224,
+  "status": "operational",
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Japanese Research Institute 1 Supercomputer 1",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "Japan",
   "lat": 36.386493,
@@ -2625,7 +3072,8 @@
   "mw": 0.55421184,
   "h100e": 52.5517938360439,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "NVIDIA Cambridge-1",
@@ -2637,7 +3085,8 @@
   "mw": 0.5497856,
   "h100e": 201.79888833040883,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Calcul Québec Narval",
@@ -2646,10 +3095,24 @@
   "country": "Canada",
   "lat": 45.494947,
   "lng": -73.562848,
-  "mw": 0.54634944,
+  "mw": 0.548,
   "h100e": 200.53764527834502,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
+ },
+ {
+  "name": "EuroHPC Karolina",
+  "owner": "EuroHPC JU",
+  "ownerKey": "other",
+  "country": "Czechia",
+  "lat": 49.834718,
+  "lng": 18.159458,
+  "mw": 0.5477,
+  "h100e": 181.61899949736957,
+  "status": "operational",
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "AIRAWAT-PSAI Phase 2",
@@ -2661,7 +3124,21 @@
   "mw": 0.5444275199999999,
   "h100e": 206.84386053866982,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
+ },
+ {
+  "name": "NSTDA Supercomputer Center (ThaiSC) LANTA",
+  "owner": "National Science and Technology Development Agency (NSTDA)",
+  "ownerKey": "other",
+  "country": "Thailand",
+  "lat": 14.020396,
+  "lng": 100.534043,
+  "mw": 0.5421,
+  "h100e": 221.97877716344988,
+  "status": "operational",
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Microsoft Azure ND v2 Largest Stated",
@@ -2673,11 +3150,12 @@
   "mw": 0.532896,
   "h100e": 50.53057099619643,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Japanese Research Institute 2 Supercomputer 1",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "Japan",
   "lat": 36.386493,
@@ -2685,7 +3163,21 @@
   "mw": 0.53149824,
   "h100e": 196.75391612214872,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
+ },
+ {
+  "name": "AGH Cyfronet Helios",
+  "owner": "AGH University of Krakow",
+  "ownerKey": "other",
+  "country": "Poland",
+  "lat": 50.068984,
+  "lng": 19.909203,
+  "mw": 0.5297,
+  "h100e": 464.00000000683394,
+  "status": "operational",
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "hessian.AI fortytwo",
@@ -2697,7 +3189,8 @@
   "mw": 0.52450944,
   "h100e": 199.27640222627883,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "SAKURA Internet 2019 V100 Supercomputer",
@@ -2709,23 +3202,12 @@
   "mw": 0.51158016,
   "h100e": 48.509348156348224,
   "status": "operational",
-  "year": 2019
- },
- {
-  "name": "Simon Fraser University/Compute Canada Cedar",
-  "owner": "Compute Canada",
-  "ownerKey": "other",
-  "country": "Canada",
-  "lat": 49.276726,
-  "lng": -122.914232,
-  "mw": 0.5031936,
-  "h100e": 48.509348156348224,
-  "status": "operational",
-  "year": 2020
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2733,11 +3215,12 @@
   "mw": 0.5,
   "h100e": 200,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2745,11 +3228,12 @@
   "mw": 0.5,
   "h100e": 70,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2757,11 +3241,12 @@
   "mw": 0.5,
   "h100e": 50,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2769,7 +3254,8 @@
   "mw": 0.5,
   "h100e": 40,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "PCSS Poznan Proxima",
@@ -2781,19 +3267,8 @@
   "mw": 0.49655424000000004,
   "h100e": 348.0000000051227,
   "status": "operational",
-  "year": 2024
- },
- {
-  "name": "EuroHPC Karolina",
-  "owner": "EuroHPC JU",
-  "ownerKey": "other",
-  "country": "Czechia",
-  "lat": 49.834718,
-  "lng": 18.159458,
-  "mw": 0.49480704,
-  "h100e": 181.61899949736957,
-  "status": "operational",
-  "year": 2021
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "TACC Frontera",
@@ -2805,31 +3280,8 @@
   "mw": 0.48227088,
   "h100e": 32.353713997444636,
   "status": "operational",
-  "year": 2019
- },
- {
-  "name": "Petrobras Fênix Phase 2",
-  "owner": "Petrobras",
-  "ownerKey": "other",
-  "country": "Brazil",
-  "lat": -22.909534,
-  "lng": -43.209934,
-  "mw": 0.471744,
-  "h100e": 45.47751389657645,
-  "status": "operational",
-  "year": 2020
- },
- {
-  "name": "Calcul Québec Béluga",
-  "owner": "Compute Canada",
-  "ownerKey": "other",
-  "country": "Canada",
-  "lat": 45.494947,
-  "lng": -73.562848,
-  "mw": 0.45829056,
-  "h100e": 43.456291056728816,
-  "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Gcore data center Phase 1",
@@ -2841,7 +3293,8 @@
   "mw": 0.45660160000000005,
   "h100e": 320.00000000471215,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Oracle 2020 A100 Cluster",
@@ -2853,7 +3306,8 @@
   "mw": 0.4472832,
   "h100e": 161.43911066432713,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": false
  },
  {
   "name": "Los Alamos NL Chicoma",
@@ -2865,7 +3319,21 @@
   "mw": 0.43982847999999997,
   "h100e": 161.43911066432713,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": false
+ },
+ {
+  "name": "Calcul Québec Béluga",
+  "owner": "Compute Canada",
+  "ownerKey": "other",
+  "country": "Canada",
+  "lat": 45.494947,
+  "lng": -73.562848,
+  "mw": 0.437,
+  "h100e": 43.456291056728816,
+  "status": "operational",
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Aleph Alpha alpha ONE",
@@ -2877,7 +3345,8 @@
   "mw": 0.43610112,
   "h100e": 161.43911066432713,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Wroclaw Centre for Networking and Supercomputing Lem",
@@ -2889,7 +3358,21 @@
   "mw": 0.43377152,
   "h100e": 304.0000000044739,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
+ },
+ {
+  "name": "University of Edinburgh DiRAC Tursa",
+  "owner": "Distributed Research using Advanced Computing (DiRAC)",
+  "ownerKey": "other",
+  "country": "United Kingdom of Great Britain and Northern Ireland",
+  "lat": 55.953346,
+  "lng": -3.188375,
+  "mw": 0.4296,
+  "h100e": 141.25922183128736,
+  "status": "operational",
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "NCI Australia Gadi",
@@ -2901,23 +3384,12 @@
   "mw": 0.419328,
   "h100e": 40.42445679695716,
   "status": "operational",
-  "year": 2020
- },
- {
-  "name": "NSC Berzelius Phase 1",
-  "owner": "Linköping University",
-  "ownerKey": "other",
-  "country": "Sweden",
-  "lat": 58.394294,
-  "lng": 15.561061,
-  "mw": 0.41233919999999996,
-  "h100e": 151.34916624780664,
-  "status": "operational",
-  "year": 2021
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2925,11 +3397,12 @@
   "mw": 0.4,
   "h100e": 200,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2937,11 +3410,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2949,11 +3423,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2961,11 +3436,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2973,11 +3449,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2985,11 +3462,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -2997,11 +3475,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3009,11 +3488,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3021,11 +3501,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3033,11 +3514,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3045,11 +3527,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3057,11 +3540,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3069,11 +3553,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3081,11 +3566,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3093,11 +3579,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3105,11 +3592,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3117,11 +3605,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3129,11 +3618,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3141,11 +3631,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3153,11 +3644,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3165,11 +3657,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3177,11 +3670,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3189,11 +3683,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3201,11 +3696,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3213,11 +3709,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3225,11 +3722,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3237,11 +3735,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3249,11 +3748,12 @@
   "mw": 0.4,
   "h100e": 40,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3261,11 +3761,12 @@
   "mw": 0.4,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3273,11 +3774,12 @@
   "mw": 0.4,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3285,7 +3787,8 @@
   "mw": 0.4,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "RPI Supercomputer 2",
@@ -3297,7 +3800,8 @@
   "mw": 0.3983616,
   "h100e": 38.403233957108974,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "NVIDIA Circe",
@@ -3309,19 +3813,8 @@
   "mw": 0.39626496,
   "h100e": 36.38201111726117,
   "status": "operational",
-  "year": 2018
- },
- {
-  "name": "University of Edinburgh DiRAC Tursa",
-  "owner": "Distributed Research using Advanced Computing (DiRAC)",
-  "ownerKey": "other",
-  "country": "United Kingdom of Great Britain and Northern Ireland",
-  "lat": 55.953346,
-  "lng": -3.188375,
-  "mw": 0.38484991999999996,
-  "h100e": 141.25922183128736,
-  "status": "operational",
-  "year": 2021
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Microsoft Research Hypercluster",
@@ -3333,19 +3826,8 @@
   "mw": 0.38368512,
   "h100e": 36.38201111726117,
   "status": "operational",
-  "year": 2019
- },
- {
-  "name": "Petrobras Fênix Phase 1",
-  "owner": "Petrobras",
-  "ownerKey": "other",
-  "country": "Brazil",
-  "lat": -22.909534,
-  "lng": -43.209934,
-  "mw": 0.38368512,
-  "h100e": 36.38201111726117,
-  "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Opera Iceland KEF-1 SuperPOD",
@@ -3357,7 +3839,8 @@
   "mw": 0.35386624000000005,
   "h100e": 248.0000000036531,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Fastweb NeXXt AI Factory",
@@ -3369,7 +3852,8 @@
   "mw": 0.35386624000000005,
   "h100e": 248.0000000036531,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "NVIDIA In-house DGX A100 Cluster",
@@ -3381,19 +3865,21 @@
   "mw": 0.34944,
   "h100e": 126.12430520650648,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": false
  },
  {
-  "name": "University of Oxford Jade2",
-  "owner": "University of Oxford",
+  "name": "Universitaet Frankfurt Goethe-NHR",
+  "owner": "Goethe University Frankfurt",
   "ownerKey": "other",
-  "country": "United Kingdom of Great Britain and Northern Ireland",
-  "lat": 53.389088,
-  "lng": -2.592407,
-  "mw": 0.3302208,
-  "h100e": 31.83425972760378,
+  "country": "Germany",
+  "lat": 50.096145,
+  "lng": 8.537956,
+  "mw": 0.3322,
+  "h100e": 80.48509348274128,
   "status": "operational",
-  "year": 2020
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "AGH Cyfronet Athena",
@@ -3405,7 +3891,21 @@
   "mw": 0.32707583999999995,
   "h100e": 121.07933299824536,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
+ },
+ {
+  "name": "University of Tokyo Wisteria/BDEC-01 (Aquarius)",
+  "owner": "University of Tokyo",
+  "ownerKey": "other",
+  "country": "Japan",
+  "lat": 35.71755,
+  "lng": 139.744241,
+  "mw": 0.3239,
+  "h100e": 113.51187468585499,
+  "status": "operational",
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "MIT Supercloud",
@@ -3417,19 +3917,8 @@
   "mw": 0.31973759999999996,
   "h100e": 30.82364830767983,
   "status": "operational",
-  "year": 2020
- },
- {
-  "name": "University of Tokyo Wisteria/BDEC-01 (Aquarius)",
-  "owner": "University of Tokyo",
-  "ownerKey": "other",
-  "country": "Japan",
-  "lat": 35.71755,
-  "lng": 139.744241,
-  "mw": 0.3092544,
-  "h100e": 113.51187468585499,
-  "status": "operational",
-  "year": 2021
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Indiana University Bloomington Jetstream2",
@@ -3441,11 +3930,12 @@
   "mw": 0.30663359999999995,
   "h100e": 113.51187468585499,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3453,11 +3943,12 @@
   "mw": 0.3,
   "h100e": 500,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3465,11 +3956,12 @@
   "mw": 0.3,
   "h100e": 100,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3477,11 +3969,12 @@
   "mw": 0.3,
   "h100e": 100,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3489,11 +3982,12 @@
   "mw": 0.3,
   "h100e": 100,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3501,11 +3995,12 @@
   "mw": 0.3,
   "h100e": 100,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3513,11 +4008,12 @@
   "mw": 0.3,
   "h100e": 40,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3525,11 +4021,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3537,11 +4034,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3549,11 +4047,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3561,11 +4060,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3573,11 +4073,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3585,11 +4086,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3597,11 +4099,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3609,11 +4112,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3621,11 +4125,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3633,11 +4138,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3645,11 +4151,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3657,11 +4164,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3669,11 +4177,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3681,11 +4190,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3693,11 +4203,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3705,11 +4216,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3717,11 +4229,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3729,11 +4242,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3741,11 +4255,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3753,11 +4268,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3765,11 +4281,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3777,11 +4294,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3789,11 +4307,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3801,11 +4320,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3813,11 +4333,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3825,11 +4346,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3837,11 +4359,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3849,11 +4372,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3861,11 +4385,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3873,11 +4398,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3885,11 +4411,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3897,11 +4424,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3909,11 +4437,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3921,11 +4450,12 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -3933,7 +4463,47 @@
   "mw": 0.3,
   "h100e": 30,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 0.3,
+  "h100e": 30,
+  "status": "operational",
+  "year": 2018,
+  "cert": true
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 0.3,
+  "h100e": 20,
+  "status": "operational",
+  "year": 2019,
+  "cert": true
+ },
+ {
+  "name": "Anonymized Chinese System",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "China",
+  "lat": 35.486703,
+  "lng": 101.901875,
+  "mw": 0.3,
+  "h100e": 20,
+  "status": "operational",
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "NSCC ASPIRE 2A Phase 2",
@@ -3945,19 +4515,8 @@
   "mw": 0.29981951999999995,
   "h100e": 110.98938858172492,
   "status": "operational",
-  "year": 2022
- },
- {
-  "name": "PARAM Siddhi-AI Phase 1",
-  "owner": "Center for Development of Advanced Computing (C-DAC)",
-  "ownerKey": "other",
-  "country": "India",
-  "lat": 18.533898,
-  "lng": 73.811637,
-  "mw": 0.2935296,
-  "h100e": 105.94441637346466,
-  "status": "operational",
-  "year": 2020
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Continental DGX Supercomputer",
@@ -3969,7 +4528,8 @@
   "mw": 0.2935296,
   "h100e": 28.297119757869787,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Osaka University SQUID",
@@ -3981,19 +4541,21 @@
   "mw": 0.28863744,
   "h100e": 105.94441637346466,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
-  "name": "\"Center for Advanced Intelligence Project, RIKEN, RAIDEN\"",
-  "owner": "RIKEN",
+  "name": "TU Dresden AlphaCentauri",
+  "owner": "Technische Universität Dresden",
   "ownerKey": "other",
-  "country": "Japan",
-  "lat": 35.66695,
-  "lng": 139.77619,
-  "mw": 0.28619136,
-  "h100e": 26.27589691802216,
+  "country": "Germany",
+  "lat": 51.049072,
+  "lng": 13.738695,
+  "mw": 0.2882,
+  "h100e": 85.76452754042411,
   "status": "operational",
-  "year": 2018
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Leonardo SpA davinci-1",
@@ -4005,7 +4567,8 @@
   "mw": 0.279552,
   "h100e": 100.89944416520522,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Recursion BioHive-1",
@@ -4017,7 +4580,8 @@
   "mw": 0.2748928,
   "h100e": 100.89944416520522,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "University of Cambridge Wilkes-3",
@@ -4026,34 +4590,11 @@
   "country": "United Kingdom of Great Britain and Northern Ireland",
   "lat": 52.203482,
   "lng": 0.123582,
-  "mw": 0.2748928,
+  "mw": 0.2581,
   "h100e": 100.89944416520522,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "Princeton Della Phase 1",
-  "owner": "Princeton University",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 40.34444,
-  "lng": -74.61551,
-  "mw": 0.26225472,
-  "h100e": 99.63820111313939,
-  "status": "operational",
-  "year": 2023
- },
- {
-  "name": "SURF Snellius Phase 1",
-  "owner": "SURF",
-  "ownerKey": "other",
-  "country": "Netherlands",
-  "lat": 52.357104,
-  "lng": 4.950874,
-  "mw": 0.24740352,
-  "h100e": 90.80949974868403,
-  "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Laboratório Nacional de Computação Científica Santos Dumont",
@@ -4065,7 +4606,8 @@
   "mw": 0.24513216000000002,
   "h100e": 23.24406265825037,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "U.S. Army Jean",
@@ -4077,19 +4619,8 @@
   "mw": 0.24053119999999997,
   "h100e": 88.28701364455384,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "TU Dresden AlphaCentauri",
-  "owner": "Technische Universität Dresden",
-  "ownerKey": "other",
-  "country": "Germany",
-  "lat": 51.049072,
-  "lng": 13.738695,
-  "mw": 0.23365887999999999,
-  "h100e": 85.76452754042411,
-  "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "University of Minnesota Agate",
@@ -4101,7 +4632,8 @@
   "mw": 0.22678656,
   "h100e": 83.2420414362937,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Indiana University Big Red 200",
@@ -4113,19 +4645,8 @@
   "mw": 0.21991423999999998,
   "h100e": 80.71955533216355,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "NSCC ASPIRE 2A Phase 1",
-  "owner": "National Supercomputing Center Singapore",
-  "ownerKey": "other",
-  "country": "Singapore",
-  "lat": 1.351616,
-  "lng": 103.808053,
-  "mw": 0.21805056,
-  "h100e": 80.71955533216355,
-  "status": "operational",
-  "year": 2022
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "CSC Puhti",
@@ -4137,7 +4658,8 @@
   "mw": 0.2131584,
   "h100e": 20.212228398478576,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "University of Tsukuba Cygnus",
@@ -4149,7 +4671,8 @@
   "mw": 0.2131584,
   "h100e": 20.212228398478576,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Immunity Bio Cluster",
@@ -4161,7 +4684,8 @@
   "mw": 0.209664,
   "h100e": 20.212228398478576,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": false
  },
  {
   "name": "SENAI CIMATEC Ogbon Cimatec/Petrobras",
@@ -4173,11 +4697,38 @@
   "mw": 0.20782944,
   "h100e": 19.70692268851662,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
+ },
+ {
+  "name": "University of Oxford Jade2",
+  "owner": "University of Oxford",
+  "ownerKey": "other",
+  "country": "United Kingdom of Great Britain and Northern Ireland",
+  "lat": 53.389088,
+  "lng": -2.592407,
+  "mw": 0.2024,
+  "h100e": 31.83425972760378,
+  "status": "operational",
+  "year": 2020,
+  "cert": true
+ },
+ {
+  "name": "\"Center for Advanced Intelligence Project, RIKEN, RAIDEN\"",
+  "owner": "RIKEN",
+  "ownerKey": "other",
+  "country": "Japan",
+  "lat": 35.66695,
+  "lng": 139.77619,
+  "mw": 0.2008,
+  "h100e": 26.27589691802216,
+  "status": "operational",
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4185,11 +4736,12 @@
   "mw": 0.2,
   "h100e": 80,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4197,11 +4749,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4209,11 +4762,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4221,11 +4775,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4233,11 +4788,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4245,11 +4801,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4257,11 +4814,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4269,11 +4827,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4281,11 +4840,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4293,11 +4853,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2019
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4305,11 +4866,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4317,11 +4879,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4329,11 +4892,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2019
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4341,11 +4905,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4353,11 +4918,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4365,11 +4931,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4377,11 +4944,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4389,11 +4957,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4401,11 +4970,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4413,11 +4983,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4425,11 +4996,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4437,11 +5009,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4449,11 +5022,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4461,11 +5035,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4473,11 +5048,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4485,11 +5061,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4497,11 +5074,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4509,11 +5087,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4521,11 +5100,12 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4533,31 +5113,8 @@
   "mw": 0.2,
   "h100e": 20,
   "status": "operational",
-  "year": 2018
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": 0.2,
-  "h100e": 20,
-  "status": "operational",
-  "year": 2018
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": 0.2,
-  "h100e": 20,
-  "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
   "name": "IBM DYEUS",
@@ -4569,19 +5126,21 @@
   "mw": 0.19717152,
   "h100e": 18.696311268592677,
   "status": "operational",
-  "year": 2019
+  "year": 2019,
+  "cert": true
  },
  {
-  "name": "NVIDIA SATURN V Volta",
-  "owner": "NVIDIA",
+  "name": "Atos Spartan2",
+  "owner": "Undisclosed",
   "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 0.18594576000000002,
-  "h100e": 16.675088428744704,
+  "country": "France",
+  "lat": 47.824905,
+  "lng": 2.618787,
+  "mw": 0.1894,
+  "h100e": 60.539666499122674,
   "status": "operational",
-  "year": 2017
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Texas A&M Grace",
@@ -4593,7 +5152,8 @@
   "mw": 0.171808,
   "h100e": 63.06215260325272,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "SiDi IARA",
@@ -4605,7 +5165,8 @@
   "mw": 0.171808,
   "h100e": 63.06215260325272,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Argonne NL Sophia (Formerly Theta)",
@@ -4617,19 +5178,8 @@
   "mw": 0.16773119999999997,
   "h100e": 60.539666499122674,
   "status": "operational",
-  "year": 2020
- },
- {
-  "name": "Atos Spartan2",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "France",
-  "lat": 47.824905,
-  "lng": 2.618787,
-  "mw": 0.16773119999999997,
-  "h100e": 60.539666499122674,
-  "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Commissariat a l'Energie Atomique Topaze",
@@ -4641,7 +5191,8 @@
   "mw": 0.16493568,
   "h100e": 60.539666499122674,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Dell Rattler",
@@ -4653,7 +5204,8 @@
   "mw": 0.16493568,
   "h100e": 60.539666499122674,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "High-Performance Computing Center Stuttgart Hawk",
@@ -4665,7 +5217,8 @@
   "mw": 0.16493568,
   "h100e": 60.539666499122674,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "TACC Lonestar6",
@@ -4677,7 +5230,8 @@
   "mw": 0.16098263999999998,
   "h100e": 79.45831228009851,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "EuroHPC Vega",
@@ -4689,7 +5243,8 @@
   "mw": 0.1546272,
   "h100e": 75.6745831239033,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "MTS Grom",
@@ -4701,19 +5256,8 @@
   "mw": 0.1374464,
   "h100e": 50.449722082602605,
   "status": "operational",
-  "year": 2021
- },
- {
-  "name": "NVIDIA Tethys",
-  "owner": "NVIDIA",
-  "ownerKey": "other",
-  "country": "United States of America",
-  "lat": 39.381266,
-  "lng": -97.922211,
-  "mw": 0.1374464,
-  "h100e": 50.449722082602605,
-  "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Vingroup VinAI Research Superpod",
@@ -4725,11 +5269,25 @@
   "mw": 0.1374464,
   "h100e": 50.449722082602605,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": false
+ },
+ {
+  "name": "NVIDIA Tethys",
+  "owner": "NVIDIA",
+  "ownerKey": "other",
+  "country": "United States of America",
+  "lat": 39.381266,
+  "lng": -97.922211,
+  "mw": 0.1259,
+  "h100e": 50.449722082602605,
+  "status": "operational",
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4737,11 +5295,12 @@
   "mw": null,
   "h100e": 10000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4749,11 +5308,12 @@
   "mw": null,
   "h100e": 10000,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4761,11 +5321,12 @@
   "mw": null,
   "h100e": 8000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4773,11 +5334,12 @@
   "mw": null,
   "h100e": 6000,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4785,11 +5347,12 @@
   "mw": null,
   "h100e": 5000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4797,11 +5360,12 @@
   "mw": null,
   "h100e": 5000,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4809,11 +5373,12 @@
   "mw": null,
   "h100e": 4000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4821,11 +5386,12 @@
   "mw": null,
   "h100e": 4000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4833,11 +5399,12 @@
   "mw": null,
   "h100e": 3000,
   "status": "operational",
-  "year": null
+  "year": 2021,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4845,11 +5412,12 @@
   "mw": null,
   "h100e": 3000,
   "status": "operational",
-  "year": 2021
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4857,23 +5425,12 @@
   "mw": null,
   "h100e": 3000,
   "status": "operational",
-  "year": 2024
+  "year": 2025,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": null,
-  "h100e": 3000,
-  "status": "operational",
-  "year": 2025
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4881,11 +5438,12 @@
   "mw": null,
   "h100e": 2000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4893,11 +5451,12 @@
   "mw": null,
   "h100e": 2000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4905,11 +5464,12 @@
   "mw": null,
   "h100e": 2000,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4917,11 +5477,12 @@
   "mw": null,
   "h100e": 2000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4929,11 +5490,12 @@
   "mw": null,
   "h100e": 1000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4941,11 +5503,12 @@
   "mw": null,
   "h100e": 1000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4953,11 +5516,12 @@
   "mw": null,
   "h100e": 1000,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4965,11 +5529,12 @@
   "mw": null,
   "h100e": 1000,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4977,11 +5542,12 @@
   "mw": null,
   "h100e": 800,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -4989,11 +5555,12 @@
   "mw": null,
   "h100e": 500,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5001,11 +5568,12 @@
   "mw": null,
   "h100e": 400,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5013,11 +5581,12 @@
   "mw": null,
   "h100e": 400,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5025,11 +5594,12 @@
   "mw": null,
   "h100e": 400,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5037,7 +5607,8 @@
   "mw": null,
   "h100e": 400,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Core42 AI-03",
@@ -5049,11 +5620,12 @@
   "mw": null,
   "h100e": 395.1086407334574,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5061,11 +5633,12 @@
   "mw": null,
   "h100e": 300,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5073,11 +5646,12 @@
   "mw": null,
   "h100e": 300,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5085,7 +5659,8 @@
   "mw": null,
   "h100e": 300,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Condor Galaxy 1 (CG-1)",
@@ -5097,7 +5672,8 @@
   "mw": null,
   "h100e": 242.54674078174307,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "MSU-270",
@@ -5109,11 +5685,12 @@
   "mw": null,
   "h100e": 202.1222839847841,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": false
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5121,11 +5698,12 @@
   "mw": null,
   "h100e": 200,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5133,11 +5711,12 @@
   "mw": null,
   "h100e": 200,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5145,11 +5724,12 @@
   "mw": null,
   "h100e": 200,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5157,11 +5737,12 @@
   "mw": null,
   "h100e": 100,
   "status": "operational",
-  "year": null
+  "year": null,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5169,11 +5750,12 @@
   "mw": null,
   "h100e": 100,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5181,11 +5763,12 @@
   "mw": null,
   "h100e": 100,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5193,23 +5776,12 @@
   "mw": null,
   "h100e": 100,
   "status": "operational",
-  "year": 2018
- },
- {
-  "name": "Universitaet Frankfurt Goethe-NHR",
-  "owner": "Goethe University Frankfurt",
-  "ownerKey": "other",
-  "country": "Germany",
-  "lat": 50.096145,
-  "lng": 8.537956,
-  "mw": null,
-  "h100e": 80.48509348274128,
-  "status": "operational",
-  "year": 2023
+  "year": 2018,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5217,11 +5789,12 @@
   "mw": null,
   "h100e": 80,
   "status": "operational",
-  "year": null
+  "year": null,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5229,47 +5802,12 @@
   "mw": null,
   "h100e": 50,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": null,
-  "h100e": 30,
-  "status": "operational",
-  "year": 2017
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": null,
-  "h100e": 30,
-  "status": "operational",
-  "year": 2017
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
-  "ownerKey": "other",
-  "country": "China",
-  "lat": 35.486703,
-  "lng": 101.901875,
-  "mw": null,
-  "h100e": 30,
-  "status": "operational",
-  "year": 2018
- },
- {
-  "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5277,11 +5815,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5289,11 +5828,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5301,7 +5841,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": null
+  "year": null,
+  "cert": false
  },
  {
   "name": "Alibaba Cloud in Thailand Phase 1",
@@ -5313,7 +5854,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Alibaba Cloud in Thailand Phase 2",
@@ -5325,7 +5867,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Microsoft Air Gapped Supercomputer",
@@ -5337,11 +5880,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "Hong Kong",
   "lat": 22.279356,
@@ -5349,7 +5893,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Alibaba Cloud in South Korea Phase 2",
@@ -5361,7 +5906,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Alibaba Cloud in Mexico",
@@ -5373,11 +5919,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5385,7 +5932,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": false
  },
  {
   "name": "Alibaba Cloud in Philippines Phase 1",
@@ -5397,11 +5945,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2021
+  "year": 2021,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5409,11 +5958,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5421,11 +5971,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2023
+  "year": 2023,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5433,11 +5984,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5445,7 +5997,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2024
+  "year": 2024,
+  "cert": true
  },
  {
   "name": "Alibaba Cloud in South Korea Phase 1",
@@ -5457,11 +6010,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5469,11 +6023,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2022
+  "year": 2022,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5481,7 +6036,8 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2020
+  "year": 2020,
+  "cert": true
  },
  {
   "name": "Alibaba Cloud in Malaysia Phase 2",
@@ -5493,11 +6049,12 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2025
+  "year": 2025,
+  "cert": true
  },
  {
   "name": "Anonymized Chinese System",
-  "owner": "Unknown",
+  "owner": "Undisclosed",
   "ownerKey": "other",
   "country": "China",
   "lat": 35.486703,
@@ -5505,6 +6062,231 @@
   "mw": null,
   "h100e": null,
   "status": "operational",
-  "year": 2018
+  "year": 2018,
+  "cert": true
+ },
+ {
+  "name": "Meta Hyperion",
+  "owner": "Meta",
+  "ownerKey": "meta",
+  "country": "United States",
+  "lat": 32.6,
+  "lng": -91.87,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Goodnight",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 34.8834,
+  "lng": -101.3648,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "OpenAI Stargate UAE",
+  "owner": "G42",
+  "ownerKey": "openai",
+  "country": "United Arab Emirates",
+  "lat": 24.42,
+  "lng": 54.62,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "Coreweave Helios",
+  "owner": "Coreweave",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 33.1701,
+  "lng": -101.0541,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Cedar Rapids",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 41.9779,
+  "lng": -91.6656,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "QTS Cedar Rapids",
+  "owner": "Undisclosed",
+  "ownerKey": "other",
+  "country": "United States",
+  "lat": 41.9247,
+  "lng": -91.7808,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "OpenAI Stargate Shackelford",
+  "owner": "Oracle",
+  "ownerKey": "openai",
+  "country": "United States",
+  "lat": 32.4487,
+  "lng": -99.7331,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Fort Wayne",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 41.0793,
+  "lng": -85.1394,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Crusoe Abilene Expansion",
+  "owner": "Microsoft",
+  "ownerKey": "microsoft",
+  "country": "United States",
+  "lat": 32.4487,
+  "lng": -99.7331,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "OpenAI Stargate Lordstown",
+  "owner": "Softbank",
+  "ownerKey": "openai",
+  "country": "United States",
+  "lat": 41.2373,
+  "lng": -80.8184,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "OpenAI Stargate New Mexico",
+  "owner": "Oracle",
+  "ownerKey": "openai",
+  "country": "United States",
+  "lat": 34.8405,
+  "lng": -106.2485,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "OpenAI Stargate Wisconsin",
+  "owner": "Oracle",
+  "ownerKey": "openai",
+  "country": "United States",
+  "lat": 44.2685,
+  "lng": -89.6165,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "OpenAI Stargate Michigan",
+  "owner": "Oracle",
+  "ownerKey": "openai",
+  "country": "United States",
+  "lat": 43.3266,
+  "lng": -84.5361,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "OpenAI Stargate Milam",
+  "owner": "Softbank",
+  "ownerKey": "openai",
+  "country": "United States",
+  "lat": 30.7885,
+  "lng": -96.9781,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
+ },
+ {
+  "name": "Meta Kuna",
+  "owner": "Meta",
+  "ownerKey": "meta",
+  "country": "United States",
+  "lat": 43.4921,
+  "lng": -116.4202,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": false
+ },
+ {
+  "name": "Google Kansas City East",
+  "owner": "Google",
+  "ownerKey": "google",
+  "country": "United States",
+  "lat": 39.0997,
+  "lng": -94.5786,
+  "mw": 0,
+  "h100e": 0,
+  "status": "campus",
+  "year": null,
+  "cert": true,
+  "approx": true
  }
 ]

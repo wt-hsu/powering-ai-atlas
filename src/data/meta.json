@@ -1,9 +1,12 @@
 {
   "sample": false,
   "updated": "2026-08-25",
-  "count": 459,
+  "count": 430,
+  "campusCount": 50,
   "source": "Epoch AI, “AI Supercomputers” dataset",
   "sourceUrl": "https://epoch.ai/data/ai-supercomputers",
+  "campusSource": "Epoch AI, “Frontier Data Centers” hub",
+  "campusSourceUrl": "https://epoch.ai/data/data-centers",
   "license": "CC BY 4.0",
-  "skippedNoCoords": 23
+  "skippedNoCoords": 22
 }

@@ -62,7 +62,8 @@ function computeStats(rows) {
     .reduce((s, r) => s + r.mw, 0);
   const top = rows.reduce((a, b) => ((b.mw || 0) > (a.mw || 0) ? b : a), rows[0]);
   return {
-    count: rows.length,
+    count: rows.filter((r) => r.status === 'operational').length,
+    campusCount: rows.filter((r) => r.status === 'campus').length,
     totalMW,
     usShare: totalMW ? Math.round((usMW / totalMW) * 100) : 0,
     top,
@@ -83,10 +84,10 @@ function Legend({ compact = false }) {
       </div>
       <div className="cm-legend-shape">
         <span className="cm-legend-item">
-          <span className="cm-dot" style={{ background: '#c3c2b7' }} /> operational
+          <span className="cm-dot" style={{ background: '#c3c2b7' }} /> supercomputer (operational)
         </span>
         <span className="cm-legend-item">
-          <span className="cm-dot cm-dot-hollow" style={{ borderColor: '#c3c2b7' }} /> announced / under construction
+          <span className="cm-dot cm-dot-hollow" style={{ borderColor: '#c3c2b7' }} /> mega-campus (building out)
         </span>
         <span className="cm-legend-item">
           <span className="cm-size-demo">
@@ -111,7 +112,7 @@ function ScrollyMap({ stats, geojson }) {
       {
         camera: { center: [10, 22], zoom: 1.3 },
         title: `${stats.count} machines run the AI boom`,
-        body: `Every dot on this map is an AI supercomputer — a warehouse of tens of thousands of GPUs. Together they draw about ${formatPower(stats.totalMW)} of power, and the biggest sites are growing fast. Solid dots are running today; hollow ones are announced or under construction.`,
+        body: `Every solid dot on this map is an AI supercomputer running today — a warehouse of tens of thousands of GPUs. The hollow circles are ${stats.campusCount} frontier mega-campuses still building out. Together they draw about ${formatPower(stats.totalMW)} of power.`,
       },
       {
         camera: { center: [-95, 38], zoom: 3.4 },
@@ -121,7 +122,7 @@ function ScrollyMap({ stats, geojson }) {
       {
         camera: { center: [stats.top.lng, stats.top.lat], zoom: 10.5 },
         title: 'Single sites the size of cities',
-        body: `${stats.top.name} is designed to draw about ${formatPower(stats.top.mw)} — roughly the household electricity of ${stats.topHomesM.toFixed(1)} million US homes. Facilities of this scale are reshaping local power grids before they even switch on.`,
+        body: `${stats.top.name} already draws about ${formatPower(stats.top.mw)} — roughly the household electricity of ${stats.topHomesM.toFixed(1)} million US homes — and is still growing. Facilities of this scale are reshaping local power grids.`,
       },
     ],
     [stats],
@@ -163,7 +164,7 @@ function ScrollyMap({ stats, geojson }) {
             <Layer
               id="story-up"
               type="circle"
-              filter={['==', ['get', 'status'], 'upcoming']}
+              filter={['==', ['get', 'status'], 'campus']}
               paint={hollowPaint}
             />
             <Layer
@@ -205,7 +206,7 @@ function ExplorerMap({ geojson }) {
       const p = f.properties;
       if (!activeOwners.has(p.ownerKey)) return false;
       if (p.status === 'operational' && !showOp) return false;
-      if (p.status === 'upcoming' && !showUp) return false;
+      if (p.status === 'campus' && !showUp) return false;
       return true;
     });
     return { type: 'FeatureCollection', features: feats };
@@ -242,10 +243,10 @@ function ExplorerMap({ geojson }) {
         ))}
         <span className="cm-filter-sep" />
         <button className={`cm-chip ${showOp ? 'cm-chip-on' : ''}`} onClick={() => setShowOp(!showOp)}>
-          Operational
+          Supercomputers
         </button>
         <button className={`cm-chip ${showUp ? 'cm-chip-on' : ''}`} onClick={() => setShowUp(!showUp)}>
-          Announced / building
+          Mega-campuses
         </button>
       </div>
 
@@ -264,7 +265,7 @@ function ExplorerMap({ geojson }) {
             <Layer
               id="ex-up"
               type="circle"
-              filter={['==', ['get', 'status'], 'upcoming']}
+              filter={['==', ['get', 'status'], 'campus']}
               paint={hollowPaint}
             />
             <Layer
@@ -281,11 +282,15 @@ function ExplorerMap({ geojson }) {
             <div>{hover.p.owner}</div>
             <div>
               {formatPower(hover.p.mw)}
-              {hover.p.h100e ? ` · ~${Math.round(hover.p.h100e / 1000)}k H100-equivalents` : ''}
+              {hover.p.cert === false ? ' (estimated)' : ''}
+              {hover.p.h100e
+                ? ` · ~${hover.p.h100e >= 1000 ? `${Math.round(hover.p.h100e / 1000)}k` : Math.round(hover.p.h100e)} H100-equivalents`
+                : ''}
             </div>
             <div className="cm-tooltip-muted">
               {hover.p.country}
-              {hover.p.year ? ` · ${hover.p.status === 'upcoming' ? 'expected' : 'since'} ${hover.p.year}` : ''}
+              {hover.p.status === 'campus' ? ' · mega-campus, building out' : hover.p.year ? ` · since ${hover.p.year}` : ''}
+              {hover.p.approx ? ' · location approximate' : ''}
             </div>
           </div>
         )}
