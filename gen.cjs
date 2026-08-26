@@ -441,13 +441,18 @@ function build(themeName) {
   return s;
 }
 
-// ---------- 輸出 ----------
-const outDir = path.join(__dirname, 'output');
-fs.mkdirSync(outDir, { recursive: true });
+// ---------- 共用匯出(cards.cjs 等重用主題/統計/文字工具) ----------
 const fontCss = `
 @font-face{font-family:'Noto Sans TC';src:url('../assets/fonts/NotoSansTC-wght.ttf') format('truetype');font-weight:100 900;}
 @font-face{font-family:'IBM Plex Mono';src:url('../assets/fonts/IBMPlexMono-Regular.ttf') format('truetype');font-weight:400;}
 @font-face{font-family:'IBM Plex Mono';src:url('../assets/fonts/IBMPlexMono-SemiBold.ttf') format('truetype');font-weight:600;}`;
+module.exports = { THEMES, SANS, MONO, DATA, GRID, AUDIT_DATE, zoneStats, YEARS, cumCount, text, fontCss };
+
+if (require.main !== module) return;
+
+// ---------- 輸出 ----------
+const outDir = path.join(__dirname, 'output');
+fs.mkdirSync(outDir, { recursive: true });
 
 for (const themeName of ['dark', 'light']) {
   const svg = build(themeName);

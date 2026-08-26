@@ -11,8 +11,9 @@
     "prepare-data": "node scripts/prepare-data.mjs",
     "map:gen": "node gen.cjs",
     "map:shot": "node shot.cjs",
-    "map:build": "node gen.cjs && node shot.cjs && node scripts/prepare-taiwan.mjs",
-    "map:data": "node scripts/prepare-taiwan.mjs"
+    "map:build": "node gen.cjs && node shot.cjs && node scripts/prepare-taiwan.mjs && node cards.cjs",
+    "map:data": "node scripts/prepare-taiwan.mjs",
+    "map:cards": "node cards.cjs"
   },
   "dependencies": {
     "@astrojs/react": "^4.4.0",
