@@ -3,6 +3,7 @@
 2026-08-25|狀態:**本 repo 為正本**,深色定稿依本規格由 `gen.cjs` 產出
 取代:v1(2026-08-25 上傳稿,存於會話紀錄,僅供參考)
 v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上色階段(v1 §8)併入工程;NVIDIA 改 5/27 嵌套、100MW 降側卡;新增全域確定性散置與內湖收束框;雙語(標題/圖例/警語)納入本階段;資料查核紀錄入 repo(`DATA_AUDIT.md`)。
+圖面 v1.1(2026-08-26):新增 insight 層——C「需求擠在限制區」與 B「累積案場數」兩面板(左下,數據由 `sites.json` 導出,含 `year_online` 欄位)、D1 電網註記(政策卡併入北部缺口與中電北送數字、地圖加中→北示意流向箭頭;來源見 `DATA_AUDIT.md` 電網段);互動頁同步(流向線+數字卡)。345kV 線路與變電所點位經查無官方開放 GIS,列 v2 backlog/不畫。
 
 ---
 
@@ -78,7 +79,8 @@ v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上
   - `output/AIDC_map_{dark,light}.svg`:母檔 viewBox 920×660,文字保留向量(引用字體名,設計端需裝 Noto Sans TC + IBM Plex Mono)
   - `output/AIDC_map_{dark,light}.html`:自含 @font-face 預覽頁
   - `output/AIDC_map_{dark,light}@2x.png`:1840×1320
-  - 互動版 `/taiwan-aidc/`(網站頁,MapLibre):`scripts/prepare-taiwan.mjs` 自 `sites.json` 產 `src/data/taiwan-aidc.json`(案場點+北北基桃縣界面+廊帶框+自帶海岸/縣界線),視覺編碼沿用本規格(實心/空心/嵌套、面積∝MW、調色同 token)
+  - 獨立圖卡 `output/cards/`(`map:cards`):C/B/每年新增案數三張,1200×675 社群尺寸,深淺兩色 SVG+PNG@2x——輪播、簡報、文章配圖用
+  - 互動版 `/taiwan-aidc/`(網站頁,MapLibre):`scripts/prepare-taiwan.mjs` 自 `sites.json` 產 `src/data/taiwan-aidc.json`(案場點+北北基桃縣界面+廊帶框+自帶海岸/縣界線),視覺編碼沿用本規格(實心/空心/嵌套、面積∝MW、調色同 token);頁面另含「每年新增案場」單位圖(一點=一案,hover/點擊看案名,與地圖同狀態語意)
 - 字體 vendor 於 `assets/fonts/`(OFL 授權,授權檔同目錄),PNG 輸出不依賴環境字體。
 - LinkedIn 裁切 1200×627:自 PNG 裁切,右欄兩欄改一欄之重排屬衍生版工作,不改母檔。
 

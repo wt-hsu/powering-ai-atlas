@@ -29,7 +29,7 @@ const radiusExpr = [
   16, 26,
 ];
 
-const STATUS_ZH = {
+export const STATUS_ZH = {
   operating: '營運中 Operating',
   construction: '建置中 In build',
   planned: '規劃中 Planned',
@@ -182,6 +182,15 @@ export default function TaiwanAidcMap() {
               id="ta-corridor"
               type="line"
               paint={{ 'line-color': CORRIDOR, 'line-width': 1.6, 'line-dasharray': [3, 2.4] }}
+            />
+          </Source>
+
+          {/* D1:中電北送流向(示意;數字在地圖下方數字卡) */}
+          <Source id="flow" type="geojson" data={data.flow}>
+            <Layer
+              id="ta-flow"
+              type="line"
+              paint={{ 'line-color': '#8fa3bd', 'line-width': 2, 'line-dasharray': [4, 2.5] }}
             />
           </Source>
 

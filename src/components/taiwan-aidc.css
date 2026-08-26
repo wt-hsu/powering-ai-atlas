@@ -22,6 +22,38 @@
   margin-left: auto;
 }
 
+/* 每年新增案場・單位圖 */
+.tl-wrap {
+  position: relative;
+}
+
+.tl-scroll {
+  overflow-x: auto;
+}
+
+.tl-svg {
+  display: block;
+  width: 100%;
+  min-width: 700px;
+  height: auto;
+}
+
+.tl-note {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  margin: 0.4rem 0 0;
+}
+
+.tl-dismiss {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+}
+
+.tl-wrap .cm-tooltip {
+  z-index: 6;
+}
+
 /* 圖例色票:斜線區與廊帶 */
 .ta-swatch-hatch {
   display: inline-block;

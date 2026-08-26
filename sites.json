@@ -1,162 +1,233 @@
 {
-  "audit_date": "2026-08-25",
+  "audit_date": "2026-08-26",
+  "grid": {
+    "north_twh_2023": {
+      "demand": 931,
+      "supply": 750,
+      "unit": "億度",
+      "note": "北部 2023 用電/發電(台電官方說明)"
+    },
+    "central_to_north": {
+      "capacity_mw": 3100,
+      "peak_flow_mw": 2268,
+      "year": 2026,
+      "note": "中→北融通能力/預估尖峰潮流(立法院議題研析引台電)"
+    },
+    "news_hook": "2026-08-24 台電董事長:AIDC 用電擬採電廠直供、拉專線"
+  },
   "sites": [
     {
       "id": "google",
       "name": "Google 彰濱",
       "region": "彰化線西",
       "cluster": "changhua",
-      "lonlat": [120.432, 24.128],
+      "lonlat": [
+        120.432,
+        24.128
+      ],
       "mw_draw": 250,
       "mw_label": "250MW",
       "status": "operating",
       "timeline": "2013 啟用;2026-04 獲准加碼 NT$270 億",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2013
     },
     {
       "id": "ms_gs",
       "name": "Microsoft 龜山",
       "region": "桃園龜山",
       "cluster": "taoyuan",
-      "lonlat": [121.365, 25.045],
+      "lonlat": [
+        121.365,
+        25.045
+      ],
       "mw_draw": 40,
       "mw_label": "40MW",
       "status": "operating",
       "timeline": "2024 啟用",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2024
     },
     {
       "id": "ms_lz",
       "name": "Microsoft 蘆竹",
       "region": "桃園蘆竹",
       "cluster": "taoyuan",
-      "lonlat": [121.292, 25.048],
+      "lonlat": [
+        121.292,
+        25.048
+      ],
       "mw_draw": 50,
       "mw_label": "50MW",
       "status": "construction",
       "timeline": "",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2026
     },
     {
       "id": "keppel",
       "name": "Keppel/DDSP Westwood",
       "region": "桃園龜山",
       "cluster": "taoyuan",
-      "lonlat": [121.335, 24.995],
+      "lonlat": [
+        121.335,
+        24.995
+      ],
       "mw_draw": 80,
       "mw_label": "80MW",
       "status": "construction",
       "timeline": "",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2026
     },
     {
       "id": "twm",
       "name": "台灣大×Vantage",
       "region": "桃園龜山",
       "cluster": "taoyuan",
-      "lonlat": [121.345, 25.015],
+      "lonlat": [
+        121.345,
+        25.015
+      ],
       "mw_draw": 25,
       "mw_label": "25MW（IT 16）",
       "status": "operating",
       "timeline": "2025-12 開幕即滿租；2026-06 預售完售",
-      "grade": "A"
+      "grade": "A",
+      "year_online": 2025
     },
     {
       "id": "lunping",
       "name": "中華電 崙坪 AIDC",
       "region": "桃園觀音",
       "cluster": "taoyuan",
-      "lonlat": [121.155, 25.018],
+      "lonlat": [
+        121.155,
+        25.018
+      ],
       "mw_draw": 36,
       "mw_label": "≤36MW",
       "status": "operating",
       "timeline": "2026-08 完工啟用;分階段建置,總容量上限 36MW",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2026
     },
     {
       "id": "chief_nh",
       "name": "是方 內湖",
       "region": "台北內湖",
       "cluster": "neihu",
-      "lonlat": [121.578, 25.068],
+      "lonlat": [
+        121.578,
+        25.068
+      ],
       "mw_draw": 20,
       "mw_label": "20MW",
       "status": "operating",
       "timeline": "",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2024
     },
     {
       "id": "epoch",
       "name": "Epoch Digital ETW1",
       "region": "台北內湖",
       "cluster": "neihu",
-      "lonlat": [121.565, 25.055],
+      "lonlat": [
+        121.565,
+        25.055
+      ],
       "mw_draw": 22,
       "mw_label": "IT 22–23.5MW",
       "status": "construction",
       "timeline": "2026 啟用（另有 32MW 總受電之說）",
-      "grade": "B/C"
+      "grade": "B/C",
+      "year_online": 2026
     },
     {
       "id": "empyrion",
       "name": "Empyrion TW1",
       "region": "台北內湖",
       "cluster": "neihu",
-      "lonlat": [121.593, 25.078],
+      "lonlat": [
+        121.593,
+        25.078
+      ],
       "mw_draw": 10,
       "mw_label": "10MW（IT 7）",
       "status": "construction",
       "timeline": "2027Q4",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2027
     },
     {
       "id": "chief_ct",
       "name": "是方 中科",
       "region": "台中",
       "cluster": "taichung",
-      "lonlat": [120.617, 24.211],
+      "lonlat": [
+        120.617,
+        24.211
+      ],
       "mw_draw": null,
       "mw_label": "未揭露",
       "status": "undisclosed",
       "timeline": "2026-03 核准 NT$30 億;預計 2028 商轉(v1「20MW 營運中」查無佐證,疑與內湖 LY2 混淆)",
-      "grade": "B"
+      "grade": "B",
+      "year_online": 2028
     },
     {
       "id": "nchc",
       "name": "國網雲端算力中心",
       "region": "台南南科",
       "cluster": "tainan",
-      "lonlat": [120.270, 23.105],
+      "lonlat": [
+        120.27,
+        23.105
+      ],
       "mw_draw": 15,
       "mw_label": "15MW",
       "status": "operating",
       "timeline": "2025-12 啟用",
-      "grade": "A"
+      "grade": "A",
+      "year_online": 2025
     },
     {
       "id": "shalun",
       "name": "沙崙智慧創新算力中心",
       "region": "台南歸仁",
       "cluster": "tainan",
-      "lonlat": [120.276, 22.909],
+      "lonlat": [
+        120.276,
+        22.909
+      ],
       "mw_draw": 120,
       "mw_label": "120MW",
       "status": "planned",
       "timeline": "規劃 2029",
-      "grade": "A"
+      "grade": "A",
+      "year_online": 2029
     },
     {
       "id": "nvidia",
       "name": "NVIDIA×鴻海（亞灣超算）",
       "region": "高雄軟體園區",
       "cluster": "kaohsiung",
-      "lonlat": [120.300, 22.602],
+      "lonlat": [
+        120.3,
+        22.602
+      ],
       "mw_draw": 27,
       "mw_label": "首期 27MW",
       "status": "construction",
-      "nested_inner": { "mw": 5, "label": "5MW 商轉", "status": "operating" },
+      "nested_inner": {
+        "mw": 5,
+        "label": "5MW 商轉",
+        "status": "operating"
+      },
       "timeline": "5MW 集群 2026-07 商轉；首期 27MW 建置中",
-      "grade": "A/B"
+      "grade": "A/B",
+      "year_online": 2026
     }
   ],
   "sidecard": [

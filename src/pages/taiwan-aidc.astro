@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import TaiwanAidcMap from '../components/TaiwanAidcMap.jsx';
+import TaiwanTimeline from '../components/TaiwanTimeline.jsx';
 import data from '../data/taiwan-aidc.json';
 
 const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
@@ -12,7 +13,7 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
 >
   <link
     slot="head"
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap"
     rel="stylesheet"
   />
 
@@ -32,6 +33,26 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
       </header>
 
       <TaiwanAidcMap client:only="react" />
+
+      <section class="stats container">
+        <div class="stat">
+          <div class="stat-num">{data.stats.inZone.mw}<span class="stat-unit">MW</span></div>
+          <div class="stat-label">{data.stats.inZone.n} 案擠在北北基桃「暫緩供電區」內</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">{data.grid.central_to_north.peak_flow_mw.toLocaleString()}<span class="stat-unit">MW</span></div>
+          <div class="stat-label">中電北送預估尖峰潮流({data.grid.central_to_north.year},立法院引台電)</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">{data.grid.north_twh_2023.demand} <span class="stat-vs">vs</span> {data.grid.north_twh_2023.supply}</div>
+          <div class="stat-label">北部用電 vs 發電(億度,2023,台電)——缺口靠中南部北送</div>
+        </div>
+      </section>
+
+      <section class="container timeline-sec">
+        <h2 class="sec-title">每年新增案場 New sites per year</h2>
+        <TaiwanTimeline client:only="react" />
+      </section>
 
       <section class="notes container">
         <h2>不入圖・側記 Off-map</h2>
@@ -87,6 +108,58 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
   .byline {
     font-size: 0.85rem;
     color: var(--ink-muted);
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  .stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+  }
+
+  .stat-num {
+    font-family: 'IBM Plex Mono', var(--font-sans);
+    font-variant-numeric: tabular-nums;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .stat-unit {
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+    margin-left: 0.15rem;
+  }
+
+  .stat-vs {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+  }
+
+  .stat-label {
+    font-size: 0.78rem;
+    color: var(--ink-muted);
+    margin-top: 0.3rem;
+    line-height: 1.45;
+  }
+
+  .timeline-sec {
+    margin-top: 2.5rem;
+  }
+
+  .sec-title {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+    margin: 0 0 0.75rem;
   }
 
   .notes {
