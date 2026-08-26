@@ -80,7 +80,7 @@ v1→v2 變更:深色科技感為母檔並以主題 token 同產淺色變體;上
   - `output/AIDC_map_{dark,light}.html`:自含 @font-face 預覽頁
   - `output/AIDC_map_{dark,light}@2x.png`:1840×1320
   - 獨立圖卡 `output/cards/`(`map:cards`):C/B/每年新增案數三張,1200×675 社群尺寸,深淺兩色 SVG+PNG@2x——輪播、簡報、文章配圖用
-  - 互動版 `/taiwan-aidc/`(網站頁,MapLibre):`scripts/prepare-taiwan.mjs` 自 `sites.json` 產 `src/data/taiwan-aidc.json`(案場點+北北基桃縣界面+廊帶框+自帶海岸/縣界線),視覺編碼沿用本規格(實心/空心/嵌套、面積∝MW、調色同 token)
+  - 互動版 `/taiwan-aidc/`(網站頁,MapLibre):`scripts/prepare-taiwan.mjs` 自 `sites.json` 產 `src/data/taiwan-aidc.json`(案場點+北北基桃縣界面+廊帶框+自帶海岸/縣界線),視覺編碼沿用本規格(實心/空心/嵌套、面積∝MW、調色同 token);頁面另含「每年新增案場」單位圖(一點=一案,hover/點擊看案名,與地圖同狀態語意)
 - 字體 vendor 於 `assets/fonts/`(OFL 授權,授權檔同目錄),PNG 輸出不依賴環境字體。
 - LinkedIn 裁切 1200×627:自 PNG 裁切,右欄兩欄改一欄之重排屬衍生版工作,不改母檔。
 

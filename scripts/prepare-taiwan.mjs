@@ -50,6 +50,7 @@ const siteFeature = (s) => ({
     grade: s.grade,
     nestedLive: s.nested_inner ? s.nested_inner.mw : null,
     nestedLabel: s.nested_inner ? s.nested_inner.label : null,
+    year: s.year_online,
   },
 });
 const sites = { type: 'FeatureCollection', features: data.sites.map(siteFeature) };

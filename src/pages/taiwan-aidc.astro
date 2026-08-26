@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import TaiwanAidcMap from '../components/TaiwanAidcMap.jsx';
+import TaiwanTimeline from '../components/TaiwanTimeline.jsx';
 import data from '../data/taiwan-aidc.json';
 
 const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
@@ -46,6 +47,11 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
           <div class="stat-num">{data.grid.north_twh_2023.demand} <span class="stat-vs">vs</span> {data.grid.north_twh_2023.supply}</div>
           <div class="stat-label">北部用電 vs 發電(億度,2023,台電)——缺口靠中南部北送</div>
         </div>
+      </section>
+
+      <section class="container timeline-sec">
+        <h2 class="sec-title">每年新增案場 New sites per year</h2>
+        <TaiwanTimeline client:only="react" />
       </section>
 
       <section class="notes container">
@@ -142,6 +148,18 @@ const repo = 'https://github.com/wt-hsu/powering-ai-atlas';
     color: var(--ink-muted);
     margin-top: 0.3rem;
     line-height: 1.45;
+  }
+
+  .timeline-sec {
+    margin-top: 2.5rem;
+  }
+
+  .sec-title {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-muted);
+    margin: 0 0 0.75rem;
   }
 
   .notes {

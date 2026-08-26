@@ -29,7 +29,7 @@ const radiusExpr = [
   16, 26,
 ];
 
-const STATUS_ZH = {
+export const STATUS_ZH = {
   operating: '營運中 Operating',
   construction: '建置中 In build',
   planned: '規劃中 Planned',
