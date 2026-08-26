@@ -70,7 +70,21 @@ const corridor = {
   },
 };
 
-const out = { auditDate: data.audit_date, sites, moratorium, corridor, land, borders, coast, sidecard: data.sidecard };
+// D1 流向線(中電北送,示意)與 insight 統計
+const flow = {
+  type: 'Feature',
+  properties: { name: '中電北送' },
+  geometry: { type: 'LineString', coordinates: [[121.06, 24.28], [121.1, 24.55], [121.13, 24.7]] },
+};
+const IN_ZONE = new Set(['taoyuan', 'neihu']);
+const stats = { inZone: { mw: 0, n: 0 }, outZone: { mw: 0, n: 0 } };
+for (const s of data.sites) {
+  const t = IN_ZONE.has(s.cluster) ? stats.inZone : stats.outZone;
+  t.n++;
+  if (s.mw_draw) t.mw += s.mw_draw;
+}
+
+const out = { auditDate: data.audit_date, sites, moratorium, corridor, land, borders, coast, sidecard: data.sidecard, grid: data.grid, flow, stats };
 // 座標降至 4 位小數(≈11m),檔案瘦身;鄉鎮級示意用綽綽有餘
 const round = (v) => (typeof v === 'number' ? Math.round(v * 1e4) / 1e4 : v);
 const json = JSON.stringify(out, (k, v) => (Array.isArray(v) ? v.map(round) : v));

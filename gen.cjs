@@ -10,6 +10,20 @@ const { geoTransverseMercator, geoPath } = require('d3-geo');
 const DATA = JSON.parse(fs.readFileSync(path.join(__dirname, 'sites.json'), 'utf8'));
 const W = 920, H = 660;
 const AUDIT_DATE = DATA.audit_date;
+const GRID = DATA.grid;
+
+// insight 統計:限制區內外(C)與累積案場數(B),皆由 sites 陣列導出
+const IN_ZONE = new Set(['taoyuan', 'neihu']);
+const zoneStats = { in: { mw: 0, n: 0 }, out: { mw: 0, n: 0, undisclosed: 0 } };
+for (const s of DATA.sites) {
+  const t = IN_ZONE.has(s.cluster) ? zoneStats.in : zoneStats.out;
+  t.n++;
+  if (s.mw_draw) t.mw += s.mw_draw;
+  else t.undisclosed = (t.undisclosed || 0) + 1;
+}
+const YEARS = [];
+for (let y = 2013; y <= 2029; y++) YEARS.push(y);
+const cumCount = YEARS.map((y) => DATA.sites.filter((s) => s.year_online <= y).length);
 
 // ---------- 主題 token ----------
 const THEMES = {
@@ -181,8 +195,20 @@ function build(themeName) {
   const bx1 = Math.max(...south.map(p => p.x + p.r)) + pad;
   const by1 = Math.max(...south.map(p => p.y + p.r)) + pad;
   s += `<rect x="${bx0}" y="${by0}" width="${bx1 - bx0}" height="${by1 - by0}" rx="10" fill="none" stroke="${T.corridor}" stroke-width="1.2" stroke-dasharray="5 4"/>`;
-  s += text(bx1 + 6, by1 + 2, '南臺灣算力廊帶', { size: 10, fill: T.corridor, weight: 700 });
-  s += text(bx1 + 6, by1 + 13, 'Southern Compute Corridor', { size: 7.8, fill: T.corridor, family: MONO });
+  const clY = by0 + 14;
+  s += text(bx1 + 7, clY, '南臺灣算力廊帶', { size: 10, fill: T.corridor, weight: 700 });
+  s += text(bx1 + 7, clY + 11, 'Southern Compute Corridor', { size: 7.8, fill: T.corridor, family: MONO });
+
+  // D1:中電北送流向箭頭(位置=中北電網介面附近,示意)
+  const [fx1, fy1] = projection([121.06, 24.28]);
+  const [fx2, fy2] = projection([121.13, 24.7]);
+  const midX2 = (fx1 + fx2) / 2 + 14, midY2 = (fy1 + fy2) / 2;
+  s += `<path d="M${fx1} ${fy1} Q${midX2} ${midY2} ${fx2} ${fy2}" fill="none" stroke="${T.ink3}" stroke-width="1.6" stroke-dasharray="6 3"/>`;
+  const ang = Math.atan2(fy2 - midY2, fx2 - midX2);
+  const ah = (a) => `${fx2 - 7 * Math.cos(ang - a)},${fy2 - 7 * Math.sin(ang - a)}`;
+  s += `<polygon points="${fx2},${fy2} ${ah(0.42)} ${ah(-0.42)}" fill="${T.ink3}"/>`;
+  s += text(midX2 + 8, midY2 - 2, '中電北送', { size: 8.6, fill: T.ink2, weight: 700 });
+  s += text(midX2 + 8, midY2 + 9, `尖峰 ${GRID.central_to_north.peak_flow_mw.toLocaleString()}MW`, { size: 7.6, fill: T.ink3, family: MONO });
 
   // 內湖收束框 + 徽章
   const nh = enclosing(clusters.neihu);
@@ -261,6 +287,54 @@ function build(themeName) {
   ], T);
   s += kh.svg;
   leaders.push([LX + LW, ly + kh.h / 2, { cx: byId.nvidia.x, cy: byId.nvidia.y, R: byId.nvidia.r }]);
+  ly += kh.h + 14;
+
+  // ---------- insight 面板(左下空區) ----------
+  const PW = 156, PH = 148;
+  // 面板 C:限制區內外的需求
+  {
+    const px = LX, py = ly;
+    s += `<rect x="${px}" y="${py}" width="${PW}" height="${PH}" rx="4" fill="${T.card}" stroke="${T.cardBorder}"/>`;
+    s += text(px + 9, py + 17, '需求擠在限制區', { size: 10, fill: T.ink, weight: 700 });
+    s += text(px + 9, py + 29, 'DEMAND INSIDE THE ZONE', { size: 6.8, fill: T.ink3, family: MONO, spacing: 0.5 });
+    const maxMw = Math.max(zoneStats.in.mw, zoneStats.out.mw);
+    const barW = (mw) => (mw / maxMw) * (PW - 24);
+    let by = py + 46;
+    s += text(px + 9, by, `北北基桃內 ${zoneStats.in.n} 案`, { size: 8.2, fill: T.ink2 });
+    s += text(px + PW - 9, by, `${zoneStats.in.mw}MW`, { size: 8.2, fill: T.ink, family: MONO, anchor: 'end', weight: 600 });
+    s += `<rect x="${px + 9}" y="${by + 4}" width="${barW(zoneStats.in.mw)}" height="11" rx="2" fill="${T.accent}"/>`;
+    s += `<rect x="${px + 9}" y="${by + 4}" width="${barW(zoneStats.in.mw)}" height="11" rx="2" fill="url(#hatch)"/>`;
+    by += 34;
+    s += text(px + 9, by, `限制區外 ${zoneStats.out.n} 案`, { size: 8.2, fill: T.ink2 });
+    s += text(px + PW - 9, by, `${zoneStats.out.mw}MW+`, { size: 8.2, fill: T.ink, family: MONO, anchor: 'end', weight: 600 });
+    s += `<rect x="${px + 9}" y="${by + 4}" width="${barW(zoneStats.out.mw)}" height="11" rx="2" fill="${T.accentFill}" stroke="${T.accent}" stroke-width="1.2"/>`;
+    by += 30;
+    s += text(px + 9, by, '禁供電政策 vs 市場落點:', { size: 7.6, fill: T.ink3 });
+    s += text(px + 9, by + 10, '客戶與光纖在哪,機房就想在哪。', { size: 7.6, fill: T.ink3 });
+    s += text(px + 9, by + 22, '口徑依個案,合計僅供量級參考;區外含 1 案未揭露', { size: 6.4, fill: T.ink3 });
+  }
+  // 面板 B:累積案場數 2013–2029
+  {
+    const px = LX + PW + 10, py = ly;
+    s += `<rect x="${px}" y="${py}" width="${PW}" height="${PH}" rx="4" fill="${T.card}" stroke="${T.cardBorder}"/>`;
+    s += text(px + 9, py + 17, '前 11 年 1 案,近 4 年 10 案', { size: 10, fill: T.ink, weight: 700 });
+    s += text(px + 9, py + 29, 'CUMULATIVE SITES 2013–29', { size: 6.8, fill: T.ink3, family: MONO, spacing: 0.5 });
+    const cx0 = px + 12, cy0 = py + PH - 30, cw = PW - 24, chh = 72;
+    const X = (i) => cx0 + (i / (YEARS.length - 1)) * cw;
+    const Y = (c) => cy0 - (c / DATA.sites.length) * chh;
+    let d = `M${X(0)} ${Y(cumCount[0])}`;
+    for (let i = 1; i < YEARS.length; i++) d += ` L${X(i)} ${Y(cumCount[i - 1])} L${X(i)} ${Y(cumCount[i])}`;
+    s += `<line x1="${cx0}" y1="${cy0}" x2="${cx0 + cw}" y2="${cy0}" stroke="${T.cardBorder}"/>`;
+    s += `<path d="${d}" fill="none" stroke="${T.accent}" stroke-width="1.8"/>`;
+    const i2024 = YEARS.indexOf(2024), iEnd = YEARS.indexOf(2027);
+    s += `<line x1="${X(i2024)}" y1="${cy0}" x2="${X(i2024)}" y2="${Y(13)}" stroke="${T.cardBorder}" stroke-dasharray="2 2"/>`;
+    s += text(cx0, cy0 + 11, '2013', { size: 7, fill: T.ink3, family: MONO });
+    s += text(X(i2024), cy0 + 11, '2024', { size: 7, fill: T.ink3, family: MONO, anchor: 'middle' });
+    s += text(cx0 + cw, cy0 + 11, '2029', { size: 7, fill: T.ink3, family: MONO, anchor: 'end' });
+    s += text(X(iEnd) + 3, Y(cumCount[iEnd]) + 3, `${cumCount[iEnd]}`, { size: 8.2, fill: T.ink, family: MONO, weight: 600 });
+    s += text(cx0 + 2, Y(1) - 5, '1 案', { size: 7, fill: T.ink3 });
+    s += text(px + 9, py + PH - 8, '按啟用/預計年;蘆竹、Keppel 依一期估 2026', { size: 6.4, fill: T.ink3 });
+  }
 
   // ---------- 右欄 ----------
   const RX = 566, RW = 168;   // 右欄 A
@@ -276,15 +350,19 @@ function build(themeName) {
   leaders.push([RX, ry + nhCard.h / 2, { cx: nh.cx, cy: nh.cy, R: nh.R + 5 }]);
   ry += nhCard.h + 10;
 
-  // 政策註記
-  const polH = 74;
+  // 政策註記 + D1 電網數字
+  const polH = 118;
   s += `<rect x="${RX}" y="${ry}" width="${RW}" height="${polH}" rx="4" fill="${T.card}" stroke="${T.cardBorder}"/>`;
   s += `<rect x="${RX + 9}" y="${ry + 10}" width="16" height="12" fill="url(#hatch)" stroke="${T.hatch}" stroke-width="0.8"/>`;
   s += text(RX + 31, ry + 20, '北北基桃・5MW+ 暫緩供電區', { size: 9, fill: T.ink, weight: 700 });
   s += text(RX + 9, ry + 35, '2024 起實施(2023-09 台電決策)。', { size: 8.4, fill: T.ink2 });
   s += text(RX + 9, ry + 47, '2026-07 有條件解禁:大潭、協和', { size: 8.4, fill: T.ink2 });
-  s += text(RX + 9, ry + 59, '電廠周邊約 2 公里,政策未廢止。', { size: 8.4, fill: T.ink2 });
-  s += text(RX + 9, ry + 70, 'Grid moratorium zone for 5MW+ DCs', { size: 7.4, fill: T.ink3, family: MONO });
+  s += text(RX + 9, ry + 59, '電廠周邊;2026-08 擬電廠直供。', { size: 8.4, fill: T.ink2 });
+  s += `<line x1="${RX + 9}" y1="${ry + 67}" x2="${RX + RW - 9}" y2="${ry + 67}" stroke="${T.cardBorder}"/>`;
+  s += text(RX + 9, ry + 80, `北部電力缺口(2023,台電)`, { size: 8.4, fill: T.ink, weight: 700 });
+  s += text(RX + 9, ry + 92, `用電 ${GRID.north_twh_2023.demand} 億度 > 發電 ${GRID.north_twh_2023.supply} 億度`, { size: 8.4, fill: T.ink2, family: MONO });
+  s += text(RX + 9, ry + 104, `中電北送尖峰 ${GRID.central_to_north.peak_flow_mw.toLocaleString()}MW(${GRID.central_to_north.year})`, { size: 8.4, fill: T.ink2, family: MONO });
+  s += text(RX + 9, ry + 114, 'North runs on power sent north', { size: 7.4, fill: T.ink3, family: MONO });
   ry += polH + 10;
 
   // 側卡(不入圖事實)— 文案預折行,行寬 ≤150px

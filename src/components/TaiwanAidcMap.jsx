@@ -185,6 +185,15 @@ export default function TaiwanAidcMap() {
             />
           </Source>
 
+          {/* D1:中電北送流向(示意;數字在地圖下方數字卡) */}
+          <Source id="flow" type="geojson" data={data.flow}>
+            <Layer
+              id="ta-flow"
+              type="line"
+              paint={{ 'line-color': '#8fa3bd', 'line-width': 2, 'line-dasharray': [4, 2.5] }}
+            />
+          </Source>
+
           <Source id="sites" type="geojson" data={filtered}>
             <Layer
               id="ta-hollow"
